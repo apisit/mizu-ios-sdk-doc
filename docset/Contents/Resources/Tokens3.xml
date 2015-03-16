@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/MZBaseObject.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/MZBaseObject</TokenIdentifier>
+			<Abstract type="html">Base object</Abstract>
+			<DeclaredIn>MZBaseObject.h</DeclaredIn>
+            
+			
+			<NodeRef refid="3"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/MZBaseObject/resourceName</TokenIdentifier>
+			<Abstract type="html">Resource name for this object</Abstract>
+			<DeclaredIn>MZBaseObject.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)resourceName</Declaration>
+			
+			<ReturnValue><Abstract type="html">uri resource name</Abstract></ReturnValue>
+			<Anchor>//api/name/resourceName</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MZBaseObject/initWithJson:</TokenIdentifier>
+			<Abstract type="html">Initial object with json</Abstract>
+			<DeclaredIn>MZBaseObject.h</DeclaredIn>
+			
+			<Declaration>- (id)initWithJson:(NSDictionary *)json</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>json</Name>
+					<Abstract type="html">NSDictionary returned from http request</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Object</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithJson:</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MZBaseObject/toJson</TokenIdentifier>
+			<Abstract type="html">To NSDictionry</Abstract>
+			<DeclaredIn>MZBaseObject.h</DeclaredIn>
+			
+			<Declaration>- (NSDictionary *)toJson</Declaration>
+			
+			<ReturnValue><Abstract type="html">NSDictionary</Abstract></ReturnValue>
+			<Anchor>//api/name/toJson</Anchor>
+            <NodeRef refid="3"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/MZBusiness.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/MZBusiness</TokenIdentifier>
+			<Abstract type="html">MZBusiness business detail</Abstract>
+			<DeclaredIn>MZBusiness.h</DeclaredIn>
+            
+			
+			<NodeRef refid="4"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MZBusiness/setDistanceFromCurrentLocation:</TokenIdentifier>
+			<Abstract type="html">Distance from current location in meter</Abstract>
+			<DeclaredIn>MZBusiness.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) double distanceFromCurrentLocation</Declaration>
+			
+			
+			<Anchor>//api/name/distanceFromCurrentLocation</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MZBusiness/distanceFromCurrentLocation</TokenIdentifier>
+			<Abstract type="html">Distance from current location in meter</Abstract>
+			<DeclaredIn>MZBusiness.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) double distanceFromCurrentLocation</Declaration>
+			
+			
+			<Anchor>//api/name/distanceFromCurrentLocation</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MZBusiness/distanceFromCurrentLocation</TokenIdentifier>
+			<Abstract type="html">Distance from current location in meter</Abstract>
+			<DeclaredIn>MZBusiness.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) double distanceFromCurrentLocation</Declaration>
+			
+			
+			<Anchor>//api/name/distanceFromCurrentLocation</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/MZBusiness/businessesNearby:block:</TokenIdentifier>
+			<Abstract type="html">Get businesses near by user&apos;s location</Abstract>
+			<DeclaredIn>MZBusiness.h</DeclaredIn>
+			
+			<Declaration>+ (void)businessesNearby:(CLLocationCoordinate2D)coordinate block:(ListResult)block</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>coordinate</Name>
+					<Abstract type="html">user&apos;s location</Abstract>
+				</Parameter><Parameter>
+					<Name>block</Name>
+					<Abstract type="html">return list of object otherwise NSError</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/businessesNearby:block:</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/MZBusiness/businessDetail:block:</TokenIdentifier>
+			<Abstract type="html">Get business detail inclusing tags and business hours</Abstract>
+			<DeclaredIn>MZBusiness.h</DeclaredIn>
+			
+			<Declaration>+ (void)businessDetail:(NSString *)businessId block:(SingleRowResult)block</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>businessId</Name>
+					<Abstract type="html">business Id</Abstract>
+				</Parameter><Parameter>
+					<Name>block</Name>
+					<Abstract type="html">return MZBusiness</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/businessDetail:block:</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MZBusiness/menusWithBlock:</TokenIdentifier>
+			<Abstract type="html">Get Menus of business</Abstract>
+			<DeclaredIn>MZBusiness.h</DeclaredIn>
+			
+			<Declaration>- (void)menusWithBlock:(ListResult)block</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>block</Name>
+					<Abstract type="html">return list of object otherwise NSError</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/menusWithBlock:</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MZBusiness/initWithJson:</TokenIdentifier>
+			<Abstract type="html">Initial object with json</Abstract>
+			<DeclaredIn>MZBusiness.m</DeclaredIn>
+			
+			<Declaration>- (id)initWithJson:(NSDictionary *)json</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>json</Name>
+					<Abstract type="html">NSDictionary returned from http request</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Object</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithJson:</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/MZBusiness/resourceName</TokenIdentifier>
+			<Abstract type="html">Resource name for this object</Abstract>
+			<DeclaredIn>MZBusiness.m</DeclaredIn>
+			
+			<Declaration>+ (NSString *)resourceName</Declaration>
+			
+			<ReturnValue><Abstract type="html">uri resource name</Abstract></ReturnValue>
+			<Anchor>//api/name/resourceName</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

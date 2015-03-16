@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/MZOrder.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/MZOrder</TokenIdentifier>
+			<Abstract type="html">MZOrder contains order information once user placed an order.</Abstract>
+			<DeclaredIn>MZOrder.h</DeclaredIn>
+            
+			
+			<NodeRef refid="11"/>
+		</Token>
+		
+		
+        
+	</File>
+</Tokens>

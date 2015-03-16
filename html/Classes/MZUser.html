@@ -1,0 +1,2110 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="html/html; charset=utf-8" />
+		<title>MZUser Class Reference</title>
+		<meta id="xcode-display" name="xcode-display" content="render"/>
+		<link rel="stylesheet" type="text/css" href="../css/styles.css" media="all" />
+		<link rel="stylesheet" type="text/css" media="print" href="../css/stylesPrint.css" />
+		<meta name="generator" content="appledoc 2.2 (build 963)" />
+	</head>
+	<body>
+		<header id="top_header">
+			<div id="library" class="hideInXcode">
+				<h1><a id="libraryTitle" href="../index.html">Mizu </a></h1>
+				<a id="developerHome" href="../index.html">MIZU</a>
+			</div>
+			
+			<div id="title" role="banner">
+				<h1 class="hideInXcode">MZUser Class Reference</h1>
+			</div>
+			<ul id="headerButtons" role="toolbar">
+				<li id="toc_button">
+					<button aria-label="Show Table of Contents" role="checkbox" class="open" id="table_of_contents"><span class="disclosure"></span>Table of Contents</button>
+				</li>
+				<li id="jumpto_button" role="navigation">
+					<select id="jumpTo">
+	<option value="top">Jump To&#133;</option>
+	
+	<option value="overview">Overview</option>
+	
+	
+	
+	
+	<option value="tasks">Tasks</option>
+	
+	
+	
+	
+	
+	<option value="properties">Properties</option>
+	
+	<option value="//api/name/email">&nbsp;&nbsp;&nbsp;&nbsp;email</option>
+	
+	<option value="//api/name/firstname">&nbsp;&nbsp;&nbsp;&nbsp;firstname</option>
+	
+	<option value="//api/name/fullname">&nbsp;&nbsp;&nbsp;&nbsp;fullname</option>
+	
+	<option value="//api/name/lastname">&nbsp;&nbsp;&nbsp;&nbsp;lastname</option>
+	
+	<option value="//api/name/phoneNumber">&nbsp;&nbsp;&nbsp;&nbsp;phoneNumber</option>
+	
+	<option value="//api/name/phoneVerified">&nbsp;&nbsp;&nbsp;&nbsp;phoneVerified</option>
+	
+	<option value="//api/name/profilePicture">&nbsp;&nbsp;&nbsp;&nbsp;profilePicture</option>
+	
+	<option value="//api/name/sessionToken">&nbsp;&nbsp;&nbsp;&nbsp;sessionToken</option>
+	
+	<option value="//api/name/socialAccount">&nbsp;&nbsp;&nbsp;&nbsp;socialAccount</option>
+	
+	<option value="//api/name/tastePreferences">&nbsp;&nbsp;&nbsp;&nbsp;tastePreferences</option>
+	
+	<option value="//api/name/userId">&nbsp;&nbsp;&nbsp;&nbsp;userId</option>
+	
+	
+	
+	
+	<option value="class_methods">Class Methods</option>
+	
+	<option value="//api/name/currentUser">&nbsp;&nbsp;&nbsp;&nbsp;+ currentUser</option>
+	
+	<option value="//api/name/forgotPasword:block:">&nbsp;&nbsp;&nbsp;&nbsp;+ forgotPasword:block:</option>
+	
+	<option value="//api/name/loginWithEmail:password:socialAccount:block:">&nbsp;&nbsp;&nbsp;&nbsp;+ loginWithEmail:password:socialAccount:block:</option>
+	
+	<option value="//api/name/registerWithFirstname:lastname:email:password:phoneNumber:socialAccount:block:">&nbsp;&nbsp;&nbsp;&nbsp;+ registerWithFirstname:lastname:email:password:phoneNumber:socialAccount:block:</option>
+	
+	<option value="//api/name/resourceName">&nbsp;&nbsp;&nbsp;&nbsp;+ resourceName</option>
+	
+	
+	
+	
+	<option value="instance_methods">Instance Methods</option>
+	
+	<option value="//api/name/addDefaultCreditCard:expMonth:expYear:cvc:block:">&nbsp;&nbsp;&nbsp;&nbsp;- addDefaultCreditCard:expMonth:expYear:cvc:block:</option>
+	
+	<option value="//api/name/checkInAt:table:block:">&nbsp;&nbsp;&nbsp;&nbsp;- checkInAt:table:block:</option>
+	
+	<option value="//api/name/comment:imageData:business:item:block:">&nbsp;&nbsp;&nbsp;&nbsp;- comment:imageData:business:item:block:</option>
+	
+	<option value="//api/name/deleteCommentBusiness:item:comment:block:">&nbsp;&nbsp;&nbsp;&nbsp;- deleteCommentBusiness:item:comment:block:</option>
+	
+	<option value="//api/name/getDefaultCard:">&nbsp;&nbsp;&nbsp;&nbsp;- getDefaultCard:</option>
+	
+	<option value="//api/name/initWithJson:">&nbsp;&nbsp;&nbsp;&nbsp;- initWithJson:</option>
+	
+	<option value="//api/name/like:business:item:block:">&nbsp;&nbsp;&nbsp;&nbsp;- like:business:item:block:</option>
+	
+	<option value="//api/name/logout">&nbsp;&nbsp;&nbsp;&nbsp;- logout</option>
+	
+	<option value="//api/name/placeOrderAt:withItems:block:">&nbsp;&nbsp;&nbsp;&nbsp;- placeOrderAt:withItems:block:</option>
+	
+	<option value="//api/name/recentCheckIn:">&nbsp;&nbsp;&nbsp;&nbsp;- recentCheckIn:</option>
+	
+	<option value="//api/name/refreshWithBlock:">&nbsp;&nbsp;&nbsp;&nbsp;- refreshWithBlock:</option>
+	
+	<option value="//api/name/saveProfilePicture:block:">&nbsp;&nbsp;&nbsp;&nbsp;- saveProfilePicture:block:</option>
+	
+	<option value="//api/name/saveTastePreferences:block:">&nbsp;&nbsp;&nbsp;&nbsp;- saveTastePreferences:block:</option>
+	
+	<option value="//api/name/tastePreferences:">&nbsp;&nbsp;&nbsp;&nbsp;- tastePreferences:</option>
+	
+	<option value="//api/name/updateFirstName:lastName:block:">&nbsp;&nbsp;&nbsp;&nbsp;- updateFirstName:lastName:block:</option>
+	
+	<option value="//api/name/verifyPhoneNumberWithCode:block:">&nbsp;&nbsp;&nbsp;&nbsp;- verifyPhoneNumberWithCode:block:</option>
+	
+	
+	
+</select>
+				</li>
+			</ul>
+		</header>
+		<nav id="tocContainer" class="isShowingTOC">
+			<ul id="toc" role="tree">
+				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
+
+
+
+<li role="treeitem" id="task_treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#tasks">Tasks</a></span><ul>
+	
+</ul></li>
+
+
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#properties">Properties</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/email">email</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/firstname">firstname</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/fullname">fullname</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/lastname">lastname</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/phoneNumber">phoneNumber</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/phoneVerified">phoneVerified</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/profilePicture">profilePicture</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/sessionToken">sessionToken</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/socialAccount">socialAccount</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/tastePreferences">tastePreferences</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/userId">userId</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#class_methods">Class Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/currentUser">currentUser</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/forgotPasword:block:">forgotPasword:block:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/loginWithEmail:password:socialAccount:block:">loginWithEmail:password:socialAccount:block:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/registerWithFirstname:lastname:email:password:phoneNumber:socialAccount:block:">registerWithFirstname:lastname:email:password:phoneNumber:socialAccount:block:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/resourceName">resourceName</a></span></li>
+	
+</ul></li>
+
+
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#instance_methods">Instance Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/addDefaultCreditCard:expMonth:expYear:cvc:block:">addDefaultCreditCard:expMonth:expYear:cvc:block:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/checkInAt:table:block:">checkInAt:table:block:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/comment:imageData:business:item:block:">comment:imageData:business:item:block:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/deleteCommentBusiness:item:comment:block:">deleteCommentBusiness:item:comment:block:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/getDefaultCard:">getDefaultCard:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/initWithJson:">initWithJson:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/like:business:item:block:">like:business:item:block:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/logout">logout</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/placeOrderAt:withItems:block:">placeOrderAt:withItems:block:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/recentCheckIn:">recentCheckIn:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/refreshWithBlock:">refreshWithBlock:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/saveProfilePicture:block:">saveProfilePicture:block:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/saveTastePreferences:block:">saveTastePreferences:block:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/tastePreferences:">tastePreferences:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/updateFirstName:lastName:block:">updateFirstName:lastName:block:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/verifyPhoneNumberWithCode:block:">verifyPhoneNumberWithCode:block:</a></span></li>
+	
+</ul></li>
+
+
+			</ul>
+		</nav>
+		<article>
+			<div id="contents" class="isShowingTOC" role="main">
+				<a title="MZUser Class Reference" name="top"></a>
+				<div class="main-navigation navigation-top">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="header">
+					<div class="section-header">
+						<h1 class="title title-header">MZUser Class Reference</h1>
+					</div>		
+				</div>
+				<div id="container">	
+					
+					<div class="section section-specification"><table cellspacing="0"><tbody>
+						<tr>
+	<td class="specification-title">Inherits from</td>
+	<td class="specification-value"><a href="../Classes/MZBaseObject.html">MZBaseObject</a> : NSObject</td>
+</tr><tr>
+	<td class="specification-title">Declared in</td>
+	<td class="specification-value">MZUser.h<br />MZUser.m</td>
+</tr>
+						</tbody></table></div>
+					
+                    
+                    
+					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>MZUser provides functions related to user.</p>
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-tasks">
+						<a title="Tasks" name="tasks"></a>
+						<h2 class="subtitle subtitle-tasks">Tasks</h2>
+						
+						
+						
+						<h3 class="subsubtitle task-title">Other Methods</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/sessionToken">&nbsp;&nbsp;sessionToken</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/userId">&nbsp;&nbsp;userId</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/firstname">&nbsp;&nbsp;firstname</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/lastname">&nbsp;&nbsp;lastname</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/email">&nbsp;&nbsp;email</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/phoneNumber">&nbsp;&nbsp;phoneNumber</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/phoneVerified">&nbsp;&nbsp;phoneVerified</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/fullname">&nbsp;&nbsp;fullname</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/socialAccount">&nbsp;&nbsp;socialAccount</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/profilePicture">&nbsp;&nbsp;profilePicture</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/tastePreferences">&nbsp;&nbsp;tastePreferences</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/currentUser">+&nbsp;currentUser</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/refreshWithBlock:">&ndash;&nbsp;refreshWithBlock:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/updateFirstName:lastName:block:">&ndash;&nbsp;updateFirstName:lastName:block:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/registerWithFirstname:lastname:email:password:phoneNumber:socialAccount:block:">+&nbsp;registerWithFirstname:lastname:email:password:phoneNumber:socialAccount:block:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/loginWithEmail:password:socialAccount:block:">+&nbsp;loginWithEmail:password:socialAccount:block:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/forgotPasword:block:">+&nbsp;forgotPasword:block:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/logout">&ndash;&nbsp;logout</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/verifyPhoneNumberWithCode:block:">&ndash;&nbsp;verifyPhoneNumberWithCode:block:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/addDefaultCreditCard:expMonth:expYear:cvc:block:">&ndash;&nbsp;addDefaultCreditCard:expMonth:expYear:cvc:block:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/getDefaultCard:">&ndash;&nbsp;getDefaultCard:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/checkInAt:table:block:">&ndash;&nbsp;checkInAt:table:block:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/recentCheckIn:">&ndash;&nbsp;recentCheckIn:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/placeOrderAt:withItems:block:">&ndash;&nbsp;placeOrderAt:withItems:block:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/tastePreferences:">&ndash;&nbsp;tastePreferences:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/saveTastePreferences:block:">&ndash;&nbsp;saveTastePreferences:block:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/comment:imageData:business:item:block:">&ndash;&nbsp;comment:imageData:business:item:block:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/like:business:item:block:">&ndash;&nbsp;like:business:item:block:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/deleteCommentBusiness:item:comment:block:">&ndash;&nbsp;deleteCommentBusiness:item:comment:block:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/saveProfilePicture:block:">&ndash;&nbsp;saveProfilePicture:block:</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						
+						<h3 class="subsubtitle task-title">Other Methods</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/resourceName">+&nbsp;resourceName</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/initWithJson:">&ndash;&nbsp;initWithJson:</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+					</div>
+					
+					
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Properties" name="properties"></a>
+						<h2 class="subtitle subtitle-methods">Properties</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/email" title="email"></a>
+	<h3 class="subsubtitle method-title">email</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Email address</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *email</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">MZUser.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/firstname" title="firstname"></a>
+	<h3 class="subsubtitle method-title">firstname</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>First name</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *firstname</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">MZUser.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/fullname" title="fullname"></a>
+	<h3 class="subsubtitle method-title">fullname</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Fullname readonly field</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly) NSString *fullname</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">MZUser.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/lastname" title="lastname"></a>
+	<h3 class="subsubtitle method-title">lastname</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Last name</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *lastname</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">MZUser.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/phoneNumber" title="phoneNumber"></a>
+	<h3 class="subsubtitle method-title">phoneNumber</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Phone number</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *phoneNumber</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">MZUser.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/phoneVerified" title="phoneVerified"></a>
+	<h3 class="subsubtitle method-title">phoneVerified</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Phone number verification status</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) BOOL phoneVerified</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">MZUser.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/profilePicture" title="profilePicture"></a>
+	<h3 class="subsubtitle method-title">profilePicture</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Profile picture url</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *profilePicture</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">MZUser.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/sessionToken" title="sessionToken"></a>
+	<h3 class="subsubtitle method-title">sessionToken</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Access token</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *sessionToken</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">MZUser.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/socialAccount" title="socialAccount"></a>
+	<h3 class="subsubtitle method-title">socialAccount</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Social account if any</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) MZSocialAccount *socialAccount</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">MZUser.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/tastePreferences" title="tastePreferences"></a>
+	<h3 class="subsubtitle method-title">tastePreferences</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Taste preferences.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, strong) NSArray *tastePreferences</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">MZUser.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/userId" title="userId"></a>
+	<h3 class="subsubtitle method-title">userId</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>User Id</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, retain) NSString *userId</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">MZUser.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Class Methods" name="class_methods"></a>
+						<h2 class="subtitle subtitle-methods">Class Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/currentUser" title="currentUser"></a>
+	<h3 class="subsubtitle method-title">currentUser</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Get current logged in user.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (MZUser *)currentUser</code></div>
+
+    
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>current logged in user.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">MZUser.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/forgotPasword:block:" title="forgotPasword:block:"></a>
+	<h3 class="subsubtitle method-title">forgotPasword:block:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Forgot password</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (void)forgotPasword:(NSString *)<em>email</em> block:(ValidResult)<em>block</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>email</em></dt>
+			<dd><p>Email address</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>block</em></dt>
+			<dd><p>Return YES/NO</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">MZUser.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/loginWithEmail:password:socialAccount:block:" title="loginWithEmail:password:socialAccount:block:"></a>
+	<h3 class="subsubtitle method-title">loginWithEmail:password:socialAccount:block:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Login with <a href="#//api/name/email">email</a> and password</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (void)loginWithEmail:(NSString *)<em>email</em> password:(NSString *)<em>password</em> socialAccount:(MZSocialAccount *)<em>socialAccount</em> block:(AuthenticationResult)<em>block</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>email</em></dt>
+			<dd><p>Email address</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>password</em></dt>
+			<dd><p>Password</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>socialAccount</em></dt>
+			<dd><p>Signup with Social service. only facebook.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>block</em></dt>
+			<dd><p>Return MZUser otherwise NSError</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">MZUser.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/registerWithFirstname:lastname:email:password:phoneNumber:socialAccount:block:" title="registerWithFirstname:lastname:email:password:phoneNumber:socialAccount:block:"></a>
+	<h3 class="subsubtitle method-title">registerWithFirstname:lastname:email:password:phoneNumber:socialAccount:block:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Signup. User will have to verify his/her phone number.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (void)registerWithFirstname:(NSString *)<em>firstname</em> lastname:(NSString *)<em>lastname</em> email:(NSString *)<em>email</em> password:(NSString *)<em>password</em> phoneNumber:(NSString *)<em>phoneNumber</em> socialAccount:(MZSocialAccount *)<em>socialAccount</em> block:(AuthenticationResult)<em>block</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>firstname</em></dt>
+			<dd><p>First name</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>lastname</em></dt>
+			<dd><p>Last name</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>email</em></dt>
+			<dd><p>Email address</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>password</em></dt>
+			<dd><p>Password</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>phoneNumber</em></dt>
+			<dd><p>Valid phone number with country code e.g. +14153223323</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>socialAccount</em></dt>
+			<dd><p>Signup with Social service. only facebook.</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>block</em></dt>
+			<dd><p>Return MZUser otherwise NSError</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">MZUser.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/resourceName" title="resourceName"></a>
+	<h3 class="subsubtitle method-title">resourceName</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Resource name for this object</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (NSString *)resourceName</code></div>
+
+    
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>uri resource name</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">MZBaseObject.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+					
+					<div class="section section-methods">
+						<a title="Instance Methods" name="instance_methods"></a>
+						<h2 class="subtitle subtitle-methods">Instance Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/addDefaultCreditCard:expMonth:expYear:cvc:block:" title="addDefaultCreditCard:expMonth:expYear:cvc:block:"></a>
+	<h3 class="subsubtitle method-title">addDefaultCreditCard:expMonth:expYear:cvc:block:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Add default credit card</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)addDefaultCreditCard:(NSString *)<em>cardNumber</em> expMonth:(NSInteger)<em>expMonth</em> expYear:(NSInteger)<em>expYear</em> cvc:(NSString *)<em>cvc</em> block:(SingleRowResult)<em>block</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>cardNumber</em></dt>
+			<dd><p>16 digits card number</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>expMonth</em></dt>
+			<dd><p>Expiration month</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>expYear</em></dt>
+			<dd><p>Expiration year</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>cvc</em></dt>
+			<dd><p>CVC</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>block</em></dt>
+			<dd><p>Return YES or NO</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">MZUser.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/checkInAt:table:block:" title="checkInAt:table:block:"></a>
+	<h3 class="subsubtitle method-title">checkInAt:table:block:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Check in to business and table number</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)checkInAt:(MZBusiness *)<em>business</em> table:(NSString *)<em>tableNumber</em> block:(SingleRowResult)<em>block</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>business</em></dt>
+			<dd><p>Business object</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>tableNumber</em></dt>
+			<dd><p>Table number</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>block</em></dt>
+			<dd><p>Return YES or NO</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">MZUser.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/comment:imageData:business:item:block:" title="comment:imageData:business:item:block:"></a>
+	<h3 class="subsubtitle method-title">comment:imageData:business:item:block:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>POST Comment to menu item</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)comment:(NSString *)<em>comment</em> imageData:(NSData *)<em>imageData</em> business:(MZBusiness *)<em>business</em> item:(MZMenuItem *)<em>item</em> block:(SingleRowResult)<em>block</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>business</em></dt>
+			<dd><p>selected <a href="../Classes/MZBusiness.html">MZBusiness</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>item</em></dt>
+			<dd><p>selected <a href="../Classes/MZMenuItem.html">MZMenuItem</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>block</em></dt>
+			<dd><p>return saved result</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">MZUser.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/deleteCommentBusiness:item:comment:block:" title="deleteCommentBusiness:item:comment:block:"></a>
+	<h3 class="subsubtitle method-title">deleteCommentBusiness:item:comment:block:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Delete comment by user</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)deleteCommentBusiness:(MZBusiness *)<em>business</em> item:(MZMenuItem *)<em>item</em> comment:(MZActivity *)<em>comment</em> block:(SingleRowResult)<em>block</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>business</em></dt>
+			<dd><p>selected <a href="../Classes/MZBusiness.html">MZBusiness</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>item</em></dt>
+			<dd><p>selected <a href="../Classes/MZMenuItem.html">MZMenuItem</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>comment</em></dt>
+			<dd><p>selected <a href="../Classes/MZActivity.html">MZActivity</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>block</em></dt>
+			<dd><p>return deleted resule</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">MZUser.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/getDefaultCard:" title="getDefaultCard:"></a>
+	<h3 class="subsubtitle method-title">getDefaultCard:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Get user&rsquo;s default card</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)getDefaultCard:(SingleRowResult)<em>block</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>block</em></dt>
+			<dd><p><a href="../Classes/MZCard.html">MZCard</a></p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">MZUser.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/initWithJson:" title="initWithJson:"></a>
+	<h3 class="subsubtitle method-title">initWithJson:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Initial object with json</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (id)initWithJson:(NSDictionary *)<em>json</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>json</em></dt>
+			<dd><p>NSDictionary returned from http request</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>Object</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">MZBaseObject.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/like:business:item:block:" title="like:business:item:block:"></a>
+	<h3 class="subsubtitle method-title">like:business:item:block:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Like/Unlike menu item</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)like:(BOOL)<em>like</em> business:(MZBusiness *)<em>business</em> item:(MZMenuItem *)<em>item</em> block:(SingleRowResult)<em>block</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>like</em></dt>
+			<dd><p>like or unlike</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>business</em></dt>
+			<dd><p>selected <a href="../Classes/MZBusiness.html">MZBusiness</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>item</em></dt>
+			<dd><p>selected <a href="../Classes/MZMenuItem.html">MZMenuItem</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>block</em></dt>
+			<dd><p>return saved result</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">MZUser.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/logout" title="logout"></a>
+	<h3 class="subsubtitle method-title">logout</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Logout</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)logout</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">MZUser.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/placeOrderAt:withItems:block:" title="placeOrderAt:withItems:block:"></a>
+	<h3 class="subsubtitle method-title">placeOrderAt:withItems:block:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Place order for the current checkin</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)placeOrderAt:(MZBusiness *)<em>business</em> withItems:(NSArray *)<em>listOfMZOrderItem</em> block:(SingleRowResult)<em>block</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>business</em></dt>
+			<dd><p>Business where user checked in at</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>listOfMZOrderItem</em></dt>
+			<dd><p>List of <a href="../Classes/MZOrderItem.html">MZOrderItem</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>block</em></dt>
+			<dd><p>Return order detail with total</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">MZUser.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/recentCheckIn:" title="recentCheckIn:"></a>
+	<h3 class="subsubtitle method-title">recentCheckIn:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Get recent unbilled check-in</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)recentCheckIn:(SingleRowResult)<em>block</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>block</em></dt>
+			<dd><p><a href="../Classes/MZCheckIn.html">MZCheckIn</a></p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">MZUser.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/refreshWithBlock:" title="refreshWithBlock:"></a>
+	<h3 class="subsubtitle method-title">refreshWithBlock:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Refresh current user</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)refreshWithBlock:(AuthenticationResult)<em>block</em></code></div>
+
+    
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>current logged in user.</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">MZUser.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/saveProfilePicture:block:" title="saveProfilePicture:block:"></a>
+	<h3 class="subsubtitle method-title">saveProfilePicture:block:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Update profle picture</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)saveProfilePicture:(NSData *)<em>imageData</em> block:(SingleRowResult)<em>block</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>imageData</em></dt>
+			<dd><p>imageData</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>block</em></dt>
+			<dd><p>return saved result</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">MZUser.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/saveTastePreferences:block:" title="saveTastePreferences:block:"></a>
+	<h3 class="subsubtitle method-title">saveTastePreferences:block:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Save taste preferences</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)saveTastePreferences:(NSArray *)<em>list</em> block:(ListResult)<em>block</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>list</em></dt>
+			<dd><p>Array of string</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>block</em></dt>
+			<dd><p>return array of string</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">MZUser.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/tastePreferences:" title="tastePreferences:"></a>
+	<h3 class="subsubtitle method-title">tastePreferences:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Get taste preferences array of string</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)tastePreferences:(ListResult)<em>block</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>block</em></dt>
+			<dd><p>Return array of string</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">MZUser.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/updateFirstName:lastName:block:" title="updateFirstName:lastName:block:"></a>
+	<h3 class="subsubtitle method-title">updateFirstName:lastName:block:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Update user first name and last name</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)updateFirstName:(NSString *)<em>firstName</em> lastName:(NSString *)<em>lastName</em> block:(SingleRowResult)<em>block</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>firstName</em></dt>
+			<dd><p>First name</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>lastName</em></dt>
+			<dd><p>Last name</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>block</em></dt>
+			<dd><p>Return MZUser</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">MZUser.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/verifyPhoneNumberWithCode:block:" title="verifyPhoneNumberWithCode:block:"></a>
+	<h3 class="subsubtitle method-title">verifyPhoneNumberWithCode:block:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Verify phone number with 4 digit code sent to user&rsquo;s phone number.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>- (void)verifyPhoneNumberWithCode:(NSString *)<em>code</em> block:(ValidResult)<em>block</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>code</em></dt>
+			<dd><p>4 digits code</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>block</em></dt>
+			<dd><p>Return YES or NO</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">MZUser.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
+					
+					
+                    
+                    
+				</div>
+				<div class="main-navigation navigation-bottom">
+					<ul>
+	<li><a href="../index.html">Index</a></li>
+	<li><a href="../hierarchy.html">Hierarchy</a></li>
+</ul>
+				</div>
+				<div id="footer">
+					<hr />
+					<div class="footer-copyright">
+						<p><span class="copyright">&copy; 2015 MIZU. All rights reserved. (Last updated: 2015-03-16)</span><br />
+						
+						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
+						
+					</div>
+				</div>
+			</div>
+		</article>
+		<script type="text/javascript">
+			function jumpToChange()
+			{
+				window.location.hash = this.options[this.selectedIndex].value;
+			}
+			
+			function toggleTOC()
+			{
+				var contents = document.getElementById('contents');
+				var tocContainer = document.getElementById('tocContainer');
+				
+				if (this.getAttribute('class') == 'open')
+				{
+					this.setAttribute('class', '');
+					contents.setAttribute('class', '');
+					tocContainer.setAttribute('class', '');
+					
+					window.name = "hideTOC";
+				}
+				else
+				{
+					this.setAttribute('class', 'open');
+					contents.setAttribute('class', 'isShowingTOC');
+					tocContainer.setAttribute('class', 'isShowingTOC');
+					
+					window.name = "";
+				}
+				return false;
+			}
+			
+			function toggleTOCEntryChildren(e)
+			{
+				e.stopPropagation();
+				var currentClass = this.getAttribute('class');
+				if (currentClass == 'children') {
+					this.setAttribute('class', 'children open');
+				}
+				else if (currentClass == 'children open') {
+					this.setAttribute('class', 'children');
+				}
+				return false;
+			}
+			
+			function tocEntryClick(e)
+			{
+				e.stopPropagation();
+				return true;
+			}
+			
+			function init()
+			{
+				var selectElement = document.getElementById('jumpTo');
+				selectElement.addEventListener('change', jumpToChange, false);
+				
+				var tocButton = document.getElementById('table_of_contents');
+				tocButton.addEventListener('click', toggleTOC, false);
+				
+				var taskTreeItem = document.getElementById('task_treeitem');
+				if (taskTreeItem.getElementsByTagName('li').length > 0)
+				{
+					taskTreeItem.setAttribute('class', 'children');
+					taskTreeItem.firstChild.setAttribute('class', 'disclosure');
+				}
+				
+				var tocList = document.getElementById('toc');
+				
+				var tocEntries = tocList.getElementsByTagName('li');
+				for (var i = 0; i < tocEntries.length; i++) {
+					tocEntries[i].addEventListener('click', toggleTOCEntryChildren, false);
+				}
+				
+				var tocLinks = tocList.getElementsByTagName('a');
+				for (var i = 0; i < tocLinks.length; i++) {
+					tocLinks[i].addEventListener('click', tocEntryClick, false);
+				}
+				
+				if (window.name == "hideTOC") {
+					toggleTOC.call(tocButton);
+				}
+			}
+			
+			window.onload = init;
+			
+			// If showing in Xcode, hide the TOC and Header
+			if (navigator.userAgent.match(/xcode/i)) {
+				document.getElementById("contents").className = "hideInXcode"
+				document.getElementById("tocContainer").className = "hideInXcode"
+				document.getElementById("top_header").className = "hideInXcode"
+			}
+			
+		</script>
+	</body>
+</html>
