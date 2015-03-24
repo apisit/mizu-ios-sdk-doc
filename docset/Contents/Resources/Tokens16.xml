@@ -422,12 +422,17 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/MZUser/refreshWithBlock:</TokenIdentifier>
-			<Abstract type="html">Refresh current user</Abstract>
+			<Abstract type="html">Refresh current authenticated user data.</Abstract>
 			<DeclaredIn>MZUser.h</DeclaredIn>
 			
 			<Declaration>- (void)refreshWithBlock:(AuthenticationResult)block</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>block</Name>
+					<Abstract type="html">MZUser</Abstract>
+				</Parameter>
+			</Parameters>
 			
-			<ReturnValue><Abstract type="html">current logged in user.</Abstract></ReturnValue>
 			<Anchor>//api/name/refreshWithBlock:</Anchor>
             <NodeRef refid="16"/>
 		</Token>
@@ -722,6 +727,12 @@
 			<Declaration>- (void)comment:(NSString *)comment imageData:(NSData *)imageData business:(MZBusiness *)business item:(MZMenuItem *)item block:(SingleRowResult)block</Declaration>
 			<Parameters>
 				<Parameter>
+					<Name>comment</Name>
+					<Abstract type="html">comment in NSString</Abstract>
+				</Parameter><Parameter>
+					<Name>imageData</Name>
+					<Abstract type="html">UIImage in NSData</Abstract>
+				</Parameter><Parameter>
 					<Name>business</Name>
 					<Abstract type="html">selected MZBusiness</Abstract>
 				</Parameter><Parameter>
@@ -729,7 +740,7 @@
 					<Abstract type="html">selected MZMenuItem</Abstract>
 				</Parameter><Parameter>
 					<Name>block</Name>
-					<Abstract type="html">return saved result</Abstract>
+					<Abstract type="html">MZActivity</Abstract>
 				</Parameter>
 			</Parameters>
 			

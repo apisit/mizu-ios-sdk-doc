@@ -57,6 +57,12 @@
                 </Node>
                 
                 
+                <Node type="section">
+                    <Path>Classes/MZActivity.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
                 
                 <Node type="section">
                     <Path>Classes/MZActivity.html</Path>
@@ -253,6 +259,12 @@
                     <Anchor>tasks</Anchor>
                 </Node>
                 
+                <Node type="section">
+                    <Path>Classes/MZMenu.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
                 
                 <Node type="section">
                     <Path>Classes/MZMenu.html</Path>
@@ -286,6 +298,12 @@
                     <Anchor>tasks</Anchor>
                 </Node>
                 
+                <Node type="section">
+                    <Path>Classes/MZMenuItem.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
+                </Node>
+                
                 
                 <Node type="section">
                     <Path>Classes/MZMenuItem.html</Path>
@@ -317,6 +335,12 @@
                     <Path>Classes/MZMenuSection.html</Path>
                     <Name>Tasks</Name>
                     <Anchor>tasks</Anchor>
+                </Node>
+                
+                <Node type="section">
+                    <Path>Classes/MZMenuSection.html</Path>
+                    <Name>Properties</Name>
+                    <Anchor>properties</Anchor>
                 </Node>
                 
                 

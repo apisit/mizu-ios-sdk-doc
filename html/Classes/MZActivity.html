@@ -26,6 +26,8 @@
 					<select id="jumpTo">
 	<option value="top">Jump To&#133;</option>
 	
+	<option value="overview">Overview</option>
+	
 	
 	
 	
@@ -35,6 +37,15 @@
 	
 	
 	
+	
+	
+	<option value="class_methods">Class Methods</option>
+	
+	<option value="//api/name/activityNameByType:">&nbsp;&nbsp;&nbsp;&nbsp;+ activityNameByType:</option>
+	
+	<option value="//api/name/commentsByBusiness:item:lastId:block:">&nbsp;&nbsp;&nbsp;&nbsp;+ commentsByBusiness:item:lastId:block:</option>
+	
+	<option value="//api/name/likesByBusiness:item:lastId:block:">&nbsp;&nbsp;&nbsp;&nbsp;+ likesByBusiness:item:lastId:block:</option>
 	
 	
 	
@@ -52,6 +63,8 @@
 		<nav id="tocContainer" class="isShowingTOC">
 			<ul id="toc" role="tree">
 				
+<li role="treeitem"><span class="nodisclosure"></span><span class="sectionName"><a href="#overview">Overview</a></span></li>
+
 
 
 
@@ -64,6 +77,16 @@
 
 
 
+
+<li role="treeitem" class="children"><span class="disclosure"></span><span class="sectionName"><a href="#class_methods">Class Methods</a></span><ul>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/activityNameByType:">activityNameByType:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/commentsByBusiness:item:lastId:block:">commentsByBusiness:item:lastId:block:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/likesByBusiness:item:lastId:block:">likesByBusiness:item:lastId:block:</a></span></li>
+	
+</ul></li>
 
 
 
@@ -105,6 +128,14 @@
                     
                     
 					
+					<div class="section section-overview">
+						<a title="Overview" name="overview"></a>
+						<h2 class="subtitle subtitle-overview">Overview</h2>
+						<p>User activity. (e.g. comment,like)</p>
+					</div>
+					
+					
+					
 					
 					
 					<div class="section section-tasks">
@@ -113,7 +144,33 @@
 						
 						
 						
+						<h3 class="subsubtitle task-title">Other Methods</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
+		<code><a href="#//api/name/likesByBusiness:item:lastId:block:">+&nbsp;likesByBusiness:item:lastId:block:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/commentsByBusiness:item:lastId:block:">+&nbsp;commentsByBusiness:item:lastId:block:</a></code>
+	</span>
+	
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/activityNameByType:">+&nbsp;activityNameByType:</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
 						
+						
+						
+						<h3 class="subsubtitle task-title">Other Methods</h3>
 
 						<ul class="task-list">
 							<li>
@@ -132,6 +189,185 @@
 					
 					
 					
+					
+					<div class="section section-methods">
+						<a title="Class Methods" name="class_methods"></a>
+						<h2 class="subtitle subtitle-methods">Class Methods</h2>
+						
+						<div class="section-method">
+	<a name="//api/name/activityNameByType:" title="activityNameByType:"></a>
+	<h3 class="subsubtitle method-title">activityNameByType:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Helper method to translate MizuActivityType to NSString</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (NSString *)activityNameByType:(MizuActivityType)<em>activityType</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>activityType</em></dt>
+			<dd><p>MizuActivityType</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	<div class="method-subsection return">
+		<h4 class="method-subtitle parameter-title">Return Value</h4>
+		<p>MizuActivityType in string</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">MZActivity.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/commentsByBusiness:item:lastId:block:" title="commentsByBusiness:item:lastId:block:"></a>
+	<h3 class="subsubtitle method-title">commentsByBusiness:item:lastId:block:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Get comments of menu item</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (void)commentsByBusiness:(MZBusiness *)<em>business</em> item:(MZMenuItem *)<em>item</em> lastId:(NSString *)<em>lastId</em> block:(ListResult)<em>block</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>business</em></dt>
+			<dd><p>selected <a href="../Classes/MZBusiness.html">MZBusiness</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>item</em></dt>
+			<dd><p>selected <a href="../Classes/MZMenuItem.html">MZMenuItem</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>lastId</em></dt>
+			<dd><p>lastId of activity for pagination</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>block</em></dt>
+			<dd><p>NSArray of MZActivity</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">MZActivity.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/likesByBusiness:item:lastId:block:" title="likesByBusiness:item:lastId:block:"></a>
+	<h3 class="subsubtitle method-title">likesByBusiness:item:lastId:block:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Get likes of menu item</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (void)likesByBusiness:(MZBusiness *)<em>business</em> item:(MZMenuItem *)<em>item</em> lastId:(NSString *)<em>lastId</em> block:(ListResult)<em>block</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>business</em></dt>
+			<dd><p>selected <a href="../Classes/MZBusiness.html">MZBusiness</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>item</em></dt>
+			<dd><p>selected <a href="../Classes/MZMenuItem.html">MZMenuItem</a></p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>lastId</em></dt>
+			<dd><p>lastId of activity for pagination</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>block</em></dt>
+			<dd><p>NSArray of MZActivity</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">MZActivity.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+					</div>
 					
 					
 					
@@ -205,7 +441,7 @@
 				<div id="footer">
 					<hr />
 					<div class="footer-copyright">
-						<p><span class="copyright">&copy; 2015 MIZU. All rights reserved. (Last updated: 2015-03-16)</span><br />
+						<p><span class="copyright">&copy; 2015 MIZU. All rights reserved. (Last updated: 2015-03-24)</span><br />
 						
 						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
 						
