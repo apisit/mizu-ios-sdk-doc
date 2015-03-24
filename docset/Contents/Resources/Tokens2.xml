@@ -4,7 +4,7 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/cl/MZActivityComment</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">Comment on Menu Item</Abstract>
 			<DeclaredIn>MZActivity.h</DeclaredIn>
             
 			

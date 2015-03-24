@@ -13,6 +13,383 @@
 		
 		
 		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MZMenuItem/setObjectId:</TokenIdentifier>
+			<Abstract type="html">Object Id.</Abstract>
+			<DeclaredIn>MZMenu.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *objectId</Declaration>
+			
+			
+			<Anchor>//api/name/objectId</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MZMenuItem/objectId</TokenIdentifier>
+			<Abstract type="html">Object Id.</Abstract>
+			<DeclaredIn>MZMenu.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *objectId</Declaration>
+			
+			
+			<Anchor>//api/name/objectId</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MZMenuItem/objectId</TokenIdentifier>
+			<Abstract type="html">Object Id.</Abstract>
+			<DeclaredIn>MZMenu.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *objectId</Declaration>
+			
+			
+			<Anchor>//api/name/objectId</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MZMenuItem/setName:</TokenIdentifier>
+			<Abstract type="html">Item name.</Abstract>
+			<DeclaredIn>MZMenu.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MZMenuItem/name</TokenIdentifier>
+			<Abstract type="html">Item name.</Abstract>
+			<DeclaredIn>MZMenu.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MZMenuItem/name</TokenIdentifier>
+			<Abstract type="html">Item name.</Abstract>
+			<DeclaredIn>MZMenu.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *name</Declaration>
+			
+			
+			<Anchor>//api/name/name</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MZMenuItem/setDetail:</TokenIdentifier>
+			<Abstract type="html">Item detail/description.</Abstract>
+			<DeclaredIn>MZMenu.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *detail</Declaration>
+			
+			
+			<Anchor>//api/name/detail</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MZMenuItem/detail</TokenIdentifier>
+			<Abstract type="html">Item detail/description.</Abstract>
+			<DeclaredIn>MZMenu.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *detail</Declaration>
+			
+			
+			<Anchor>//api/name/detail</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MZMenuItem/detail</TokenIdentifier>
+			<Abstract type="html">Item detail/description.</Abstract>
+			<DeclaredIn>MZMenu.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *detail</Declaration>
+			
+			
+			<Anchor>//api/name/detail</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MZMenuItem/setPrice:</TokenIdentifier>
+			<Abstract type="html">Price</Abstract>
+			<DeclaredIn>MZMenu.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) double price</Declaration>
+			
+			
+			<Anchor>//api/name/price</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MZMenuItem/price</TokenIdentifier>
+			<Abstract type="html">Price</Abstract>
+			<DeclaredIn>MZMenu.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) double price</Declaration>
+			
+			
+			<Anchor>//api/name/price</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MZMenuItem/price</TokenIdentifier>
+			<Abstract type="html">Price</Abstract>
+			<DeclaredIn>MZMenu.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) double price</Declaration>
+			
+			
+			<Anchor>//api/name/price</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MZMenuItem/setOptions:</TokenIdentifier>
+			<Abstract type="html">Options</Abstract>
+			<DeclaredIn>MZMenu.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *options</Declaration>
+			
+			
+			<Anchor>//api/name/options</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MZMenuItem/options</TokenIdentifier>
+			<Abstract type="html">Options</Abstract>
+			<DeclaredIn>MZMenu.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *options</Declaration>
+			
+			
+			<Anchor>//api/name/options</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MZMenuItem/options</TokenIdentifier>
+			<Abstract type="html">Options</Abstract>
+			<DeclaredIn>MZMenu.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *options</Declaration>
+			
+			
+			<Anchor>//api/name/options</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MZMenuItem/setTags:</TokenIdentifier>
+			<Abstract type="html">Tags (e.g. vegetable, spicy)</Abstract>
+			<DeclaredIn>MZMenu.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *tags</Declaration>
+			
+			
+			<Anchor>//api/name/tags</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MZMenuItem/tags</TokenIdentifier>
+			<Abstract type="html">Tags (e.g. vegetable, spicy)</Abstract>
+			<DeclaredIn>MZMenu.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *tags</Declaration>
+			
+			
+			<Anchor>//api/name/tags</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MZMenuItem/tags</TokenIdentifier>
+			<Abstract type="html">Tags (e.g. vegetable, spicy)</Abstract>
+			<DeclaredIn>MZMenu.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *tags</Declaration>
+			
+			
+			<Anchor>//api/name/tags</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MZMenuItem/setLikeCount:</TokenIdentifier>
+			<Abstract type="html">Like count</Abstract>
+			<DeclaredIn>MZMenu.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSInteger likeCount</Declaration>
+			
+			
+			<Anchor>//api/name/likeCount</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MZMenuItem/likeCount</TokenIdentifier>
+			<Abstract type="html">Like count</Abstract>
+			<DeclaredIn>MZMenu.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSInteger likeCount</Declaration>
+			
+			
+			<Anchor>//api/name/likeCount</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MZMenuItem/likeCount</TokenIdentifier>
+			<Abstract type="html">Like count</Abstract>
+			<DeclaredIn>MZMenu.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSInteger likeCount</Declaration>
+			
+			
+			<Anchor>//api/name/likeCount</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MZMenuItem/setCommentCount:</TokenIdentifier>
+			<Abstract type="html">Comment count</Abstract>
+			<DeclaredIn>MZMenu.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSInteger commentCount</Declaration>
+			
+			
+			<Anchor>//api/name/commentCount</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MZMenuItem/commentCount</TokenIdentifier>
+			<Abstract type="html">Comment count</Abstract>
+			<DeclaredIn>MZMenu.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSInteger commentCount</Declaration>
+			
+			
+			<Anchor>//api/name/commentCount</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MZMenuItem/commentCount</TokenIdentifier>
+			<Abstract type="html">Comment count</Abstract>
+			<DeclaredIn>MZMenu.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) NSInteger commentCount</Declaration>
+			
+			
+			<Anchor>//api/name/commentCount</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MZMenuItem/setUserLiked:</TokenIdentifier>
+			<Abstract type="html">If user token is provided. return whether user has liked this item.</Abstract>
+			<DeclaredIn>MZMenu.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL userLiked</Declaration>
+			
+			
+			<Anchor>//api/name/userLiked</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MZMenuItem/userLiked</TokenIdentifier>
+			<Abstract type="html">If user token is provided. return whether user has liked this item.</Abstract>
+			<DeclaredIn>MZMenu.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL userLiked</Declaration>
+			
+			
+			<Anchor>//api/name/userLiked</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MZMenuItem/userLiked</TokenIdentifier>
+			<Abstract type="html">If user token is provided. return whether user has liked this item.</Abstract>
+			<DeclaredIn>MZMenu.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL userLiked</Declaration>
+			
+			
+			<Anchor>//api/name/userLiked</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MZMenuItem/setImageUrls:</TokenIdentifier>
+			<Abstract type="html">List of item image urls from comments.</Abstract>
+			<DeclaredIn>MZMenu.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *imageUrls</Declaration>
+			
+			
+			<Anchor>//api/name/imageUrls</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MZMenuItem/imageUrls</TokenIdentifier>
+			<Abstract type="html">List of item image urls from comments.</Abstract>
+			<DeclaredIn>MZMenu.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *imageUrls</Declaration>
+			
+			
+			<Anchor>//api/name/imageUrls</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MZMenuItem/imageUrls</TokenIdentifier>
+			<Abstract type="html">List of item image urls from comments.</Abstract>
+			<DeclaredIn>MZMenu.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *imageUrls</Declaration>
+			
+			
+			<Anchor>//api/name/imageUrls</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MZMenuItem/refreshWithBlock:</TokenIdentifier>
+			<Abstract type="html">Refresh data. like and comment count are included.</Abstract>
+			<DeclaredIn>MZMenu.h</DeclaredIn>
+			
+			<Declaration>- (void)refreshWithBlock:(SingleRowResult)block</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>block</Name>
+					<Abstract type="html">MZMenuItem</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/refreshWithBlock:</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
 			<TokenIdentifier>//apple_ref/occ/clm/MZMenuItem/resourceName</TokenIdentifier>
 			<Abstract type="html">Resource name for this object</Abstract>
 			<DeclaredIn>MZMenu.m</DeclaredIn>

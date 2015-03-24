@@ -4,13 +4,82 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/cl/MZActivity</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">User activity. (e.g. comment,like)</Abstract>
 			<DeclaredIn>MZActivity.h</DeclaredIn>
             
 			
 			<NodeRef refid="1"/>
 		</Token>
 		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/MZActivity/likesByBusiness:item:lastId:block:</TokenIdentifier>
+			<Abstract type="html">Get likes of menu item</Abstract>
+			<DeclaredIn>MZActivity.h</DeclaredIn>
+			
+			<Declaration>+ (void)likesByBusiness:(MZBusiness *)business item:(MZMenuItem *)item lastId:(NSString *)lastId block:(ListResult)block</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>business</Name>
+					<Abstract type="html">selected MZBusiness</Abstract>
+				</Parameter><Parameter>
+					<Name>item</Name>
+					<Abstract type="html">selected MZMenuItem</Abstract>
+				</Parameter><Parameter>
+					<Name>lastId</Name>
+					<Abstract type="html">lastId of activity for pagination</Abstract>
+				</Parameter><Parameter>
+					<Name>block</Name>
+					<Abstract type="html">NSArray of MZActivity</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/likesByBusiness:item:lastId:block:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/MZActivity/commentsByBusiness:item:lastId:block:</TokenIdentifier>
+			<Abstract type="html">Get comments of menu item</Abstract>
+			<DeclaredIn>MZActivity.h</DeclaredIn>
+			
+			<Declaration>+ (void)commentsByBusiness:(MZBusiness *)business item:(MZMenuItem *)item lastId:(NSString *)lastId block:(ListResult)block</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>business</Name>
+					<Abstract type="html">selected MZBusiness</Abstract>
+				</Parameter><Parameter>
+					<Name>item</Name>
+					<Abstract type="html">selected MZMenuItem</Abstract>
+				</Parameter><Parameter>
+					<Name>lastId</Name>
+					<Abstract type="html">lastId of activity for pagination</Abstract>
+				</Parameter><Parameter>
+					<Name>block</Name>
+					<Abstract type="html">NSArray of MZActivity</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/commentsByBusiness:item:lastId:block:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/MZActivity/activityNameByType:</TokenIdentifier>
+			<Abstract type="html">Helper method to translate MizuActivityType to NSString</Abstract>
+			<DeclaredIn>MZActivity.h</DeclaredIn>
+			
+			<Declaration>+ (NSString *)activityNameByType:(MizuActivityType)activityType</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>activityType</Name>
+					<Abstract type="html">MizuActivityType</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">MizuActivityType in string</Abstract></ReturnValue>
+			<Anchor>//api/name/activityNameByType:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/MZActivity/initWithJson:</TokenIdentifier>

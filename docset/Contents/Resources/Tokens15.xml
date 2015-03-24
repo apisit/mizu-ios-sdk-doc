@@ -4,7 +4,7 @@
 		
 		<Token>
 			<TokenIdentifier>//apple_ref/occ/cl/MZSocialAccount</TokenIdentifier>
-			<Abstract type="html"></Abstract>
+			<Abstract type="html">Social account. (only facebook is supported)</Abstract>
 			<DeclaredIn>MZSocialAccount.h</DeclaredIn>
             
 			
