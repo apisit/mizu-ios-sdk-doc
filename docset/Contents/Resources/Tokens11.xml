@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/MZMeta.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/MZMeta</TokenIdentifier>
+			<Abstract type="html"></Abstract>
+			<DeclaredIn>MZBusiness.h</DeclaredIn>
+            
+			
+			<NodeRef refid="11"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MZMeta/initWithJson:</TokenIdentifier>
+			<Abstract type="html">Initial object with json</Abstract>
+			<DeclaredIn>MZBusiness.m</DeclaredIn>
+			
+			<Declaration>- (id)initWithJson:(NSDictionary *)json</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>json</Name>
+					<Abstract type="html">NSDictionary returned from http request</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Object</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithJson:</Anchor>
+            <NodeRef refid="11"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>

@@ -1,0 +1,874 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Classes/MZUser.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/cl/MZUser</TokenIdentifier>
+			<Abstract type="html">MZUser provides functions related to user.</Abstract>
+			<DeclaredIn>MZUser.h</DeclaredIn>
+            
+			
+			<NodeRef refid="17"/>
+		</Token>
+		
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MZUser/setSessionToken:</TokenIdentifier>
+			<Abstract type="html">Access token</Abstract>
+			<DeclaredIn>MZUser.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *sessionToken</Declaration>
+			
+			
+			<Anchor>//api/name/sessionToken</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MZUser/sessionToken</TokenIdentifier>
+			<Abstract type="html">Access token</Abstract>
+			<DeclaredIn>MZUser.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *sessionToken</Declaration>
+			
+			
+			<Anchor>//api/name/sessionToken</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MZUser/sessionToken</TokenIdentifier>
+			<Abstract type="html">Access token</Abstract>
+			<DeclaredIn>MZUser.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *sessionToken</Declaration>
+			
+			
+			<Anchor>//api/name/sessionToken</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MZUser/setUserId:</TokenIdentifier>
+			<Abstract type="html">User Id</Abstract>
+			<DeclaredIn>MZUser.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *userId</Declaration>
+			
+			
+			<Anchor>//api/name/userId</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MZUser/userId</TokenIdentifier>
+			<Abstract type="html">User Id</Abstract>
+			<DeclaredIn>MZUser.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *userId</Declaration>
+			
+			
+			<Anchor>//api/name/userId</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MZUser/userId</TokenIdentifier>
+			<Abstract type="html">User Id</Abstract>
+			<DeclaredIn>MZUser.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *userId</Declaration>
+			
+			
+			<Anchor>//api/name/userId</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MZUser/setFirstname:</TokenIdentifier>
+			<Abstract type="html">First name</Abstract>
+			<DeclaredIn>MZUser.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *firstname</Declaration>
+			
+			
+			<Anchor>//api/name/firstname</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MZUser/firstname</TokenIdentifier>
+			<Abstract type="html">First name</Abstract>
+			<DeclaredIn>MZUser.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *firstname</Declaration>
+			
+			
+			<Anchor>//api/name/firstname</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MZUser/firstname</TokenIdentifier>
+			<Abstract type="html">First name</Abstract>
+			<DeclaredIn>MZUser.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *firstname</Declaration>
+			
+			
+			<Anchor>//api/name/firstname</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MZUser/setLastname:</TokenIdentifier>
+			<Abstract type="html">Last name</Abstract>
+			<DeclaredIn>MZUser.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *lastname</Declaration>
+			
+			
+			<Anchor>//api/name/lastname</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MZUser/lastname</TokenIdentifier>
+			<Abstract type="html">Last name</Abstract>
+			<DeclaredIn>MZUser.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *lastname</Declaration>
+			
+			
+			<Anchor>//api/name/lastname</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MZUser/lastname</TokenIdentifier>
+			<Abstract type="html">Last name</Abstract>
+			<DeclaredIn>MZUser.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *lastname</Declaration>
+			
+			
+			<Anchor>//api/name/lastname</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MZUser/setEmail:</TokenIdentifier>
+			<Abstract type="html">Email address</Abstract>
+			<DeclaredIn>MZUser.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *email</Declaration>
+			
+			
+			<Anchor>//api/name/email</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MZUser/email</TokenIdentifier>
+			<Abstract type="html">Email address</Abstract>
+			<DeclaredIn>MZUser.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *email</Declaration>
+			
+			
+			<Anchor>//api/name/email</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MZUser/email</TokenIdentifier>
+			<Abstract type="html">Email address</Abstract>
+			<DeclaredIn>MZUser.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *email</Declaration>
+			
+			
+			<Anchor>//api/name/email</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MZUser/setPhoneNumber:</TokenIdentifier>
+			<Abstract type="html">Phone number</Abstract>
+			<DeclaredIn>MZUser.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *phoneNumber</Declaration>
+			
+			
+			<Anchor>//api/name/phoneNumber</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MZUser/phoneNumber</TokenIdentifier>
+			<Abstract type="html">Phone number</Abstract>
+			<DeclaredIn>MZUser.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *phoneNumber</Declaration>
+			
+			
+			<Anchor>//api/name/phoneNumber</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MZUser/phoneNumber</TokenIdentifier>
+			<Abstract type="html">Phone number</Abstract>
+			<DeclaredIn>MZUser.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *phoneNumber</Declaration>
+			
+			
+			<Anchor>//api/name/phoneNumber</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MZUser/setPhoneVerified:</TokenIdentifier>
+			<Abstract type="html">Phone number verification status</Abstract>
+			<DeclaredIn>MZUser.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL phoneVerified</Declaration>
+			
+			
+			<Anchor>//api/name/phoneVerified</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MZUser/phoneVerified</TokenIdentifier>
+			<Abstract type="html">Phone number verification status</Abstract>
+			<DeclaredIn>MZUser.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL phoneVerified</Declaration>
+			
+			
+			<Anchor>//api/name/phoneVerified</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MZUser/phoneVerified</TokenIdentifier>
+			<Abstract type="html">Phone number verification status</Abstract>
+			<DeclaredIn>MZUser.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) BOOL phoneVerified</Declaration>
+			
+			
+			<Anchor>//api/name/phoneVerified</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MZUser/setFullname:</TokenIdentifier>
+			<Abstract type="html">Fullname readonly field</Abstract>
+			<DeclaredIn>MZUser.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSString *fullname</Declaration>
+			
+			
+			<Anchor>//api/name/fullname</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MZUser/fullname</TokenIdentifier>
+			<Abstract type="html">Fullname readonly field</Abstract>
+			<DeclaredIn>MZUser.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSString *fullname</Declaration>
+			
+			
+			<Anchor>//api/name/fullname</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MZUser/fullname</TokenIdentifier>
+			<Abstract type="html">Fullname readonly field</Abstract>
+			<DeclaredIn>MZUser.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSString *fullname</Declaration>
+			
+			
+			<Anchor>//api/name/fullname</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MZUser/setSocialAccount:</TokenIdentifier>
+			<Abstract type="html">Social account if any</Abstract>
+			<DeclaredIn>MZUser.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) MZSocialAccount *socialAccount</Declaration>
+			
+			
+			<Anchor>//api/name/socialAccount</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MZUser/socialAccount</TokenIdentifier>
+			<Abstract type="html">Social account if any</Abstract>
+			<DeclaredIn>MZUser.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) MZSocialAccount *socialAccount</Declaration>
+			
+			
+			<Anchor>//api/name/socialAccount</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MZUser/socialAccount</TokenIdentifier>
+			<Abstract type="html">Social account if any</Abstract>
+			<DeclaredIn>MZUser.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) MZSocialAccount *socialAccount</Declaration>
+			
+			
+			<Anchor>//api/name/socialAccount</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MZUser/setProfilePicture:</TokenIdentifier>
+			<Abstract type="html">Profile picture url</Abstract>
+			<DeclaredIn>MZUser.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *profilePicture</Declaration>
+			
+			
+			<Anchor>//api/name/profilePicture</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MZUser/profilePicture</TokenIdentifier>
+			<Abstract type="html">Profile picture url</Abstract>
+			<DeclaredIn>MZUser.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *profilePicture</Declaration>
+			
+			
+			<Anchor>//api/name/profilePicture</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MZUser/profilePicture</TokenIdentifier>
+			<Abstract type="html">Profile picture url</Abstract>
+			<DeclaredIn>MZUser.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, retain) NSString *profilePicture</Declaration>
+			
+			
+			<Anchor>//api/name/profilePicture</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MZUser/setTastePreferences:</TokenIdentifier>
+			<Abstract type="html">Taste preferences.</Abstract>
+			<DeclaredIn>MZUser.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *tastePreferences</Declaration>
+			
+			
+			<Anchor>//api/name/tastePreferences</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MZUser/tastePreferences</TokenIdentifier>
+			<Abstract type="html">Taste preferences.</Abstract>
+			<DeclaredIn>MZUser.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *tastePreferences</Declaration>
+			
+			
+			<Anchor>//api/name/tastePreferences</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MZUser/tastePreferences</TokenIdentifier>
+			<Abstract type="html">Taste preferences.</Abstract>
+			<DeclaredIn>MZUser.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *tastePreferences</Declaration>
+			
+			
+			<Anchor>//api/name/tastePreferences</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/MZUser/currentUser</TokenIdentifier>
+			<Abstract type="html">Get current logged in user.</Abstract>
+			<DeclaredIn>MZUser.h</DeclaredIn>
+			
+			<Declaration>+ (MZUser *)currentUser</Declaration>
+			
+			<ReturnValue><Abstract type="html">current logged in user.</Abstract></ReturnValue>
+			<Anchor>//api/name/currentUser</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MZUser/refreshWithBlock:</TokenIdentifier>
+			<Abstract type="html">Refresh current authenticated user data.</Abstract>
+			<DeclaredIn>MZUser.h</DeclaredIn>
+			
+			<Declaration>- (void)refreshWithBlock:(AuthenticationResult)block</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>block</Name>
+					<Abstract type="html">MZUser</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/refreshWithBlock:</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MZUser/updateFirstName:lastName:block:</TokenIdentifier>
+			<Abstract type="html">Update user first name and last name</Abstract>
+			<DeclaredIn>MZUser.h</DeclaredIn>
+			
+			<Declaration>- (void)updateFirstName:(NSString *)firstName lastName:(NSString *)lastName block:(SingleRowResult)block</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>firstName</Name>
+					<Abstract type="html">First name</Abstract>
+				</Parameter><Parameter>
+					<Name>lastName</Name>
+					<Abstract type="html">Last name</Abstract>
+				</Parameter><Parameter>
+					<Name>block</Name>
+					<Abstract type="html">Return MZUser</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/updateFirstName:lastName:block:</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/MZUser/registerWithFirstname:lastname:email:password:phoneNumber:socialAccount:block:</TokenIdentifier>
+			<Abstract type="html">Signup. User will have to verify his/her phone number.</Abstract>
+			<DeclaredIn>MZUser.h</DeclaredIn>
+			
+			<Declaration>+ (void)registerWithFirstname:(NSString *)firstname lastname:(NSString *)lastname email:(NSString *)email password:(NSString *)password phoneNumber:(NSString *)phoneNumber socialAccount:(MZSocialAccount *)socialAccount block:(AuthenticationResult)block</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>firstname</Name>
+					<Abstract type="html">First name</Abstract>
+				</Parameter><Parameter>
+					<Name>lastname</Name>
+					<Abstract type="html">Last name</Abstract>
+				</Parameter><Parameter>
+					<Name>email</Name>
+					<Abstract type="html">Email address</Abstract>
+				</Parameter><Parameter>
+					<Name>password</Name>
+					<Abstract type="html">Password</Abstract>
+				</Parameter><Parameter>
+					<Name>phoneNumber</Name>
+					<Abstract type="html">Valid phone number with country code e.g. +14153223323</Abstract>
+				</Parameter><Parameter>
+					<Name>socialAccount</Name>
+					<Abstract type="html">Signup with Social service. only facebook.</Abstract>
+				</Parameter><Parameter>
+					<Name>block</Name>
+					<Abstract type="html">Return MZUser otherwise NSError</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/registerWithFirstname:lastname:email:password:phoneNumber:socialAccount:block:</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/MZUser/loginWithEmail:password:socialAccount:block:</TokenIdentifier>
+			<Abstract type="html">Login with email and password</Abstract>
+			<DeclaredIn>MZUser.h</DeclaredIn>
+			
+			<Declaration>+ (void)loginWithEmail:(NSString *)email password:(NSString *)password socialAccount:(MZSocialAccount *)socialAccount block:(AuthenticationResult)block</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>email</Name>
+					<Abstract type="html">Email address</Abstract>
+				</Parameter><Parameter>
+					<Name>password</Name>
+					<Abstract type="html">Password</Abstract>
+				</Parameter><Parameter>
+					<Name>socialAccount</Name>
+					<Abstract type="html">Signup with Social service. only facebook.</Abstract>
+				</Parameter><Parameter>
+					<Name>block</Name>
+					<Abstract type="html">Return MZUser otherwise NSError</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/loginWithEmail:password:socialAccount:block:</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/MZUser/forgotPasword:block:</TokenIdentifier>
+			<Abstract type="html">Forgot password</Abstract>
+			<DeclaredIn>MZUser.h</DeclaredIn>
+			
+			<Declaration>+ (void)forgotPasword:(NSString *)email block:(ValidResult)block</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>email</Name>
+					<Abstract type="html">Email address</Abstract>
+				</Parameter><Parameter>
+					<Name>block</Name>
+					<Abstract type="html">Return YES/NO</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/forgotPasword:block:</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MZUser/logout</TokenIdentifier>
+			<Abstract type="html">Logout</Abstract>
+			<DeclaredIn>MZUser.h</DeclaredIn>
+			
+			<Declaration>- (void)logout</Declaration>
+			
+			
+			<Anchor>//api/name/logout</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MZUser/verifyPhoneNumberWithCode:block:</TokenIdentifier>
+			<Abstract type="html">Verify phone number with 4 digit code sent to user&apos;s phone number.</Abstract>
+			<DeclaredIn>MZUser.h</DeclaredIn>
+			
+			<Declaration>- (void)verifyPhoneNumberWithCode:(NSString *)code block:(ValidResult)block</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>code</Name>
+					<Abstract type="html">4 digits code</Abstract>
+				</Parameter><Parameter>
+					<Name>block</Name>
+					<Abstract type="html">Return YES or NO</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/verifyPhoneNumberWithCode:block:</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MZUser/addDefaultCreditCard:expMonth:expYear:cvc:block:</TokenIdentifier>
+			<Abstract type="html">Add default credit card</Abstract>
+			<DeclaredIn>MZUser.h</DeclaredIn>
+			
+			<Declaration>- (void)addDefaultCreditCard:(NSString *)cardNumber expMonth:(NSInteger)expMonth expYear:(NSInteger)expYear cvc:(NSString *)cvc block:(SingleRowResult)block</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>cardNumber</Name>
+					<Abstract type="html">16 digits card number</Abstract>
+				</Parameter><Parameter>
+					<Name>expMonth</Name>
+					<Abstract type="html">Expiration month</Abstract>
+				</Parameter><Parameter>
+					<Name>expYear</Name>
+					<Abstract type="html">Expiration year</Abstract>
+				</Parameter><Parameter>
+					<Name>cvc</Name>
+					<Abstract type="html">CVC</Abstract>
+				</Parameter><Parameter>
+					<Name>block</Name>
+					<Abstract type="html">Return YES or NO</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/addDefaultCreditCard:expMonth:expYear:cvc:block:</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MZUser/getDefaultCard:</TokenIdentifier>
+			<Abstract type="html">Get user&apos;s default card</Abstract>
+			<DeclaredIn>MZUser.h</DeclaredIn>
+			
+			<Declaration>- (void)getDefaultCard:(SingleRowResult)block</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>block</Name>
+					<Abstract type="html">MZCard</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/getDefaultCard:</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MZUser/checkInAt:table:block:</TokenIdentifier>
+			<Abstract type="html">Check in to business and table number</Abstract>
+			<DeclaredIn>MZUser.h</DeclaredIn>
+			
+			<Declaration>- (void)checkInAt:(MZBusiness *)business table:(NSString *)tableNumber block:(SingleRowResult)block</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>business</Name>
+					<Abstract type="html">Business object</Abstract>
+				</Parameter><Parameter>
+					<Name>tableNumber</Name>
+					<Abstract type="html">Table number</Abstract>
+				</Parameter><Parameter>
+					<Name>block</Name>
+					<Abstract type="html">Return YES or NO</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/checkInAt:table:block:</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MZUser/recentCheckIn:</TokenIdentifier>
+			<Abstract type="html">Get recent unbilled check-in</Abstract>
+			<DeclaredIn>MZUser.h</DeclaredIn>
+			
+			<Declaration>- (void)recentCheckIn:(SingleRowResult)block</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>block</Name>
+					<Abstract type="html">MZCheckIn</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/recentCheckIn:</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MZUser/placeOrderAt:withItems:block:</TokenIdentifier>
+			<Abstract type="html">Place order for the current checkin</Abstract>
+			<DeclaredIn>MZUser.h</DeclaredIn>
+			
+			<Declaration>- (void)placeOrderAt:(MZBusiness *)business withItems:(NSArray *)listOfMZOrderItem block:(SingleRowResult)block</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>business</Name>
+					<Abstract type="html">Business where user checked in at</Abstract>
+				</Parameter><Parameter>
+					<Name>listOfMZOrderItem</Name>
+					<Abstract type="html">List of MZOrderItem</Abstract>
+				</Parameter><Parameter>
+					<Name>block</Name>
+					<Abstract type="html">Return order detail with total</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/placeOrderAt:withItems:block:</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MZUser/tastePreferences:</TokenIdentifier>
+			<Abstract type="html">Get taste preferences array of string</Abstract>
+			<DeclaredIn>MZUser.h</DeclaredIn>
+			
+			<Declaration>- (void)tastePreferences:(ListResult)block</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>block</Name>
+					<Abstract type="html">Return array of string</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/tastePreferences:</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MZUser/saveTastePreferences:block:</TokenIdentifier>
+			<Abstract type="html">Save taste preferences</Abstract>
+			<DeclaredIn>MZUser.h</DeclaredIn>
+			
+			<Declaration>- (void)saveTastePreferences:(NSArray *)list block:(ListResult)block</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>list</Name>
+					<Abstract type="html">Array of string</Abstract>
+				</Parameter><Parameter>
+					<Name>block</Name>
+					<Abstract type="html">return array of string</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/saveTastePreferences:block:</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MZUser/comment:imageData:business:item:block:</TokenIdentifier>
+			<Abstract type="html">POST Comment to menu item</Abstract>
+			<DeclaredIn>MZUser.h</DeclaredIn>
+			
+			<Declaration>- (void)comment:(NSString *)comment imageData:(NSData *)imageData business:(MZBusiness *)business item:(MZMenuItem *)item block:(SingleRowResult)block</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>comment</Name>
+					<Abstract type="html">comment in NSString</Abstract>
+				</Parameter><Parameter>
+					<Name>imageData</Name>
+					<Abstract type="html">UIImage in NSData</Abstract>
+				</Parameter><Parameter>
+					<Name>business</Name>
+					<Abstract type="html">selected MZBusiness</Abstract>
+				</Parameter><Parameter>
+					<Name>item</Name>
+					<Abstract type="html">selected MZMenuItem</Abstract>
+				</Parameter><Parameter>
+					<Name>block</Name>
+					<Abstract type="html">MZActivity</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/comment:imageData:business:item:block:</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MZUser/like:business:item:block:</TokenIdentifier>
+			<Abstract type="html">Like/Unlike menu item</Abstract>
+			<DeclaredIn>MZUser.h</DeclaredIn>
+			
+			<Declaration>- (void)like:(BOOL)like business:(MZBusiness *)business item:(MZMenuItem *)item block:(SingleRowResult)block</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>like</Name>
+					<Abstract type="html">like or unlike</Abstract>
+				</Parameter><Parameter>
+					<Name>business</Name>
+					<Abstract type="html">selected MZBusiness</Abstract>
+				</Parameter><Parameter>
+					<Name>item</Name>
+					<Abstract type="html">selected MZMenuItem</Abstract>
+				</Parameter><Parameter>
+					<Name>block</Name>
+					<Abstract type="html">return saved result</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/like:business:item:block:</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MZUser/deleteCommentBusiness:item:comment:block:</TokenIdentifier>
+			<Abstract type="html">Delete comment by user</Abstract>
+			<DeclaredIn>MZUser.h</DeclaredIn>
+			
+			<Declaration>- (void)deleteCommentBusiness:(MZBusiness *)business item:(MZMenuItem *)item comment:(MZActivity *)comment block:(SingleRowResult)block</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>business</Name>
+					<Abstract type="html">selected MZBusiness</Abstract>
+				</Parameter><Parameter>
+					<Name>item</Name>
+					<Abstract type="html">selected MZMenuItem</Abstract>
+				</Parameter><Parameter>
+					<Name>comment</Name>
+					<Abstract type="html">selected MZActivity</Abstract>
+				</Parameter><Parameter>
+					<Name>block</Name>
+					<Abstract type="html">return deleted resule</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/deleteCommentBusiness:item:comment:block:</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MZUser/saveProfilePicture:block:</TokenIdentifier>
+			<Abstract type="html">Update profle picture</Abstract>
+			<DeclaredIn>MZUser.h</DeclaredIn>
+			
+			<Declaration>- (void)saveProfilePicture:(NSData *)imageData block:(SingleRowResult)block</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>imageData</Name>
+					<Abstract type="html">imageData</Abstract>
+				</Parameter><Parameter>
+					<Name>block</Name>
+					<Abstract type="html">return saved result</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/saveProfilePicture:block:</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MZUser/recentActivitiesLastId:block:</TokenIdentifier>
+			<Abstract type="html">Get 50 recent activities including likes and comments.</Abstract>
+			<DeclaredIn>MZUser.h</DeclaredIn>
+			
+			<Declaration>- (void)recentActivitiesLastId:(NSString *)lastId block:(ListResult)block</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>lastId</Name>
+					<Abstract type="html">last returned Id. (blank means getting latest 50)</Abstract>
+				</Parameter><Parameter>
+					<Name>block</Name>
+					<Abstract type="html">NSArray of MZActivity</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/recentActivitiesLastId:block:</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/MZUser/resourceName</TokenIdentifier>
+			<Abstract type="html">Resource name for this object</Abstract>
+			<DeclaredIn>MZUser.m</DeclaredIn>
+			
+			<Declaration>+ (NSString *)resourceName</Declaration>
+			
+			<ReturnValue><Abstract type="html">uri resource name</Abstract></ReturnValue>
+			<Anchor>//api/name/resourceName</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MZUser/initWithJson:</TokenIdentifier>
+			<Abstract type="html">Initial object with json</Abstract>
+			<DeclaredIn>MZUser.m</DeclaredIn>
+			
+			<Declaration>- (id)initWithJson:(NSDictionary *)json</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>json</Name>
+					<Abstract type="html">NSDictionary returned from http request</Abstract>
+				</Parameter>
+			</Parameters>
+			<ReturnValue><Abstract type="html">Object</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithJson:</Anchor>
+            <NodeRef refid="17"/>
+		</Token>
+		
+        
+	</File>
+</Tokens>
