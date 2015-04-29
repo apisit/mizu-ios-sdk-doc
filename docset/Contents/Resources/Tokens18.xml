@@ -8,7 +8,7 @@
 			<DeclaredIn>Mizu.h</DeclaredIn>
             
 			
-			<NodeRef refid="17"/>
+			<NodeRef refid="18"/>
 		</Token>
 		
 		
@@ -29,7 +29,7 @@
 			</Parameters>
 			
 			<Anchor>//api/name/setApplicationId:apiKey:</Anchor>
-            <NodeRef refid="17"/>
+            <NodeRef refid="18"/>
 		</Token>
 		
         

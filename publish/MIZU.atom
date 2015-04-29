@@ -1,18 +1,18 @@
 <?xml version="1.0" standalone="no"?>
 <feed xmlns="http://www.w3.org/2005/Atom" xmlns:docset="http://developer.apple.com/rss/docset_extensions" xml:lang="en">
-    <id>http://getmizu.com/MIZU/MIZU.atom/20150324205802</id>
+    <id>http://getmizu.com/MIZU/MIZU.atom/20150429210459</id>
     <title type="text">Mizu Documentation</title>
     <rights>Copyright © 2015 MIZU. All rights reserved.</rights>
     <link rel="self" href="http://getmizu.com/MIZU/MIZU.atom"></link>
     <docset:publisherName>MIZU</docset:publisherName>
     <docset:publisherID>com.GETMIZU.documentation</docset:publisherID>
-    <updated>2015-03-24T20:58:02+09:00</updated>
+    <updated>2015-04-29T21:04:59+01:00</updated>
     <entry>
-        <id>tag:getmizu.com,2015-03-24:com.GETMIZU.Mizu/1.0.0</id>
+        <id>tag:getmizu.com,2015-04-29:com.GETMIZU.Mizu/1.0.0</id>
         <title type="text">Mizu Documentation</title>
-        <updated>2015-03-24T20:58:02+09:00</updated>
+        <updated>2015-04-29T21:04:59+01:00</updated>
         <content type="text">Mizu Documentation (v1.0.0)</content>
-        <link rel="enclosure" type="application/octet-stream" href="http:/getmizu.com/MIZU/com.GETMIZU.Mizu-1.0.xar" length="244286"></link>
+        <link rel="enclosure" type="application/octet-stream" href="http:/getmizu.com/MIZU/com.GETMIZU.Mizu-1.0.xar" length="261397"></link>
         <docset:identifier>com.GETMIZU.Mizu</docset:identifier>
         <docset:version>1.0.0</docset:version>
         <docset:minimumXcodeVersion>3.0.0</docset:minimumXcodeVersion>

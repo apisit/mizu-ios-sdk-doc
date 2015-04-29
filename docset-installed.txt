@@ -1,4 +1,4 @@
 Documentation set was installed to Xcode!
 
 Path: /Users/apisit/Library/Developer/Shared/Documentation/DocSets/com.GETMIZU.Mizu.docset
-Time: 2015-03-24 11:58:01 +0000
+Time: 2015-04-29 20:04:58 +0000

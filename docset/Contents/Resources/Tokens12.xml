@@ -1,45 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/MZOrderItem.html">
+	<File path="Classes/MZOrder.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/MZOrderItem</TokenIdentifier>
-			<Abstract type="html">MZOrderItem contains order item detail</Abstract>
+			<TokenIdentifier>//apple_ref/occ/cl/MZOrder</TokenIdentifier>
+			<Abstract type="html">MZOrder contains order information once user placed an order.</Abstract>
 			<DeclaredIn>MZOrder.h</DeclaredIn>
             
 			
 			<NodeRef refid="12"/>
 		</Token>
 		
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/MZOrderItem/initWithJson:</TokenIdentifier>
-			<Abstract type="html">Initial object with json</Abstract>
-			<DeclaredIn>MZOrder.m</DeclaredIn>
-			
-			<Declaration>- (id)initWithJson:(NSDictionary *)json</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>json</Name>
-					<Abstract type="html">NSDictionary returned from http request</Abstract>
-				</Parameter>
-			</Parameters>
-			<ReturnValue><Abstract type="html">Object</Abstract></ReturnValue>
-			<Anchor>//api/name/initWithJson:</Anchor>
-            <NodeRef refid="12"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/clm/MZOrderItem/resourceName</TokenIdentifier>
-			<Abstract type="html">Resource name for this object</Abstract>
-			<DeclaredIn>MZOrder.m</DeclaredIn>
-			
-			<Declaration>+ (NSString *)resourceName</Declaration>
-			
-			<ReturnValue><Abstract type="html">uri resource name</Abstract></ReturnValue>
-			<Anchor>//api/name/resourceName</Anchor>
-            <NodeRef refid="12"/>
-		</Token>
 		
         
 	</File>

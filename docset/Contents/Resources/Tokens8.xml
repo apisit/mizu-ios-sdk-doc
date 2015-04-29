@@ -121,6 +121,78 @@
 		</Token>
 		
 		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MZMenu/setImageUrls:</TokenIdentifier>
+			<Abstract type="html">List of item image urls from comments.</Abstract>
+			<DeclaredIn>MZMenu.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *imageUrls</Declaration>
+			
+			
+			<Anchor>//api/name/imageUrls</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MZMenu/imageUrls</TokenIdentifier>
+			<Abstract type="html">List of item image urls from comments.</Abstract>
+			<DeclaredIn>MZMenu.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *imageUrls</Declaration>
+			
+			
+			<Anchor>//api/name/imageUrls</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MZMenu/imageUrls</TokenIdentifier>
+			<Abstract type="html">List of item image urls from comments.</Abstract>
+			<DeclaredIn>MZMenu.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSArray *imageUrls</Declaration>
+			
+			
+			<Anchor>//api/name/imageUrls</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MZMenu/setListSectionString:</TokenIdentifier>
+			<Abstract type="html">List of MZMenuSection name with ,(comma) (e.g. Appetizer, Drink)</Abstract>
+			<DeclaredIn>MZMenu.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSString *listSectionString</Declaration>
+			
+			
+			<Anchor>//api/name/listSectionString</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MZMenu/listSectionString</TokenIdentifier>
+			<Abstract type="html">List of MZMenuSection name with ,(comma) (e.g. Appetizer, Drink)</Abstract>
+			<DeclaredIn>MZMenu.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSString *listSectionString</Declaration>
+			
+			
+			<Anchor>//api/name/listSectionString</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MZMenu/listSectionString</TokenIdentifier>
+			<Abstract type="html">List of MZMenuSection name with ,(comma) (e.g. Appetizer, Drink)</Abstract>
+			<DeclaredIn>MZMenu.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSString *listSectionString</Declaration>
+			
+			
+			<Anchor>//api/name/listSectionString</Anchor>
+            <NodeRef refid="8"/>
+		</Token>
+		
+		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/MZMenu/initWithJson:</TokenIdentifier>
 			<Abstract type="html">Initial object with json</Abstract>
 			<DeclaredIn>MZMenu.m</DeclaredIn>

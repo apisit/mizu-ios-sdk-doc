@@ -390,6 +390,78 @@
 		</Token>
 		
 		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MZMenuItem/setRank:</TokenIdentifier>
+			<Abstract type="html">Menu item ranking based on user</Abstract>
+			<DeclaredIn>MZMenu.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) Float64 rank</Declaration>
+			
+			
+			<Anchor>//api/name/rank</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MZMenuItem/rank</TokenIdentifier>
+			<Abstract type="html">Menu item ranking based on user</Abstract>
+			<DeclaredIn>MZMenu.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) Float64 rank</Declaration>
+			
+			
+			<Anchor>//api/name/rank</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MZMenuItem/rank</TokenIdentifier>
+			<Abstract type="html">Menu item ranking based on user</Abstract>
+			<DeclaredIn>MZMenu.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) Float64 rank</Declaration>
+			
+			
+			<Anchor>//api/name/rank</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MZMenuItem/setUrl:</TokenIdentifier>
+			<Abstract type="html">unqiue url</Abstract>
+			<DeclaredIn>MZMenu.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *url</Declaration>
+			
+			
+			<Anchor>//api/name/url</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MZMenuItem/url</TokenIdentifier>
+			<Abstract type="html">unqiue url</Abstract>
+			<DeclaredIn>MZMenu.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *url</Declaration>
+			
+			
+			<Anchor>//api/name/url</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MZMenuItem/url</TokenIdentifier>
+			<Abstract type="html">unqiue url</Abstract>
+			<DeclaredIn>MZMenu.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, strong) NSString *url</Declaration>
+			
+			
+			<Anchor>//api/name/url</Anchor>
+            <NodeRef refid="9"/>
+		</Token>
+		
+		<Token>
 			<TokenIdentifier>//apple_ref/occ/clm/MZMenuItem/resourceName</TokenIdentifier>
 			<Abstract type="html">Resource name for this object</Abstract>
 			<DeclaredIn>MZMenu.m</DeclaredIn>

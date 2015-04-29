@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/MZSetting.html">
+	<File path="Classes/MZQuestion.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/MZSetting</TokenIdentifier>
-			<Abstract type="html">Settings</Abstract>
-			<DeclaredIn>MZSetting.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/MZQuestion</TokenIdentifier>
+			<Abstract type="html">MZQuestion taste preference question</Abstract>
+			<DeclaredIn>MZQuestion.h</DeclaredIn>
             
 			
 			<NodeRef refid="14"/>
@@ -13,19 +13,19 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/clm/MZSetting/tastePreferenceQuestions:</TokenIdentifier>
-			<Abstract type="html">Get taste preference questions</Abstract>
-			<DeclaredIn>MZSetting.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/instm/MZQuestion/initWithJson:</TokenIdentifier>
+			<Abstract type="html">Initial object with json</Abstract>
+			<DeclaredIn>MZQuestion.m</DeclaredIn>
 			
-			<Declaration>+ (void)tastePreferenceQuestions:(ListResult)block</Declaration>
+			<Declaration>- (id)initWithJson:(NSDictionary *)json</Declaration>
 			<Parameters>
 				<Parameter>
-					<Name>block</Name>
-					<Abstract type="html">Array of MZQuestion</Abstract>
+					<Name>json</Name>
+					<Abstract type="html">NSDictionary returned from http request</Abstract>
 				</Parameter>
 			</Parameters>
-			
-			<Anchor>//api/name/tastePreferenceQuestions:</Anchor>
+			<ReturnValue><Abstract type="html">Object</Abstract></ReturnValue>
+			<Anchor>//api/name/initWithJson:</Anchor>
             <NodeRef refid="14"/>
 		</Token>
 		
