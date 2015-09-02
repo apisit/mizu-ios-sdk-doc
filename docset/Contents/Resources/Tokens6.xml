@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/MZCheckIn.html">
+	<File path="Classes/MZBusinessSocial.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/MZCheckIn</TokenIdentifier>
-			<Abstract type="html">Check in detail</Abstract>
-			<DeclaredIn>MZCheckIn.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/MZBusinessSocial</TokenIdentifier>
+			<Abstract type="html">Business social media account</Abstract>
+			<DeclaredIn>MZBusinessSocial.h</DeclaredIn>
             
 			
 			<NodeRef refid="6"/>
@@ -13,9 +13,9 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/MZCheckIn/initWithJson:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/MZBusinessSocial/initWithJson:</TokenIdentifier>
 			<Abstract type="html">Initial object with json</Abstract>
-			<DeclaredIn>MZCheckIn.m</DeclaredIn>
+			<DeclaredIn>MZBusinessSocial.m</DeclaredIn>
 			
 			<Declaration>- (id)initWithJson:(NSDictionary *)json</Declaration>
 			<Parameters>
@@ -26,18 +26,6 @@
 			</Parameters>
 			<ReturnValue><Abstract type="html">Object</Abstract></ReturnValue>
 			<Anchor>//api/name/initWithJson:</Anchor>
-            <NodeRef refid="6"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/clm/MZCheckIn/resourceName</TokenIdentifier>
-			<Abstract type="html">Resource name for this object</Abstract>
-			<DeclaredIn>MZCheckIn.m</DeclaredIn>
-			
-			<Declaration>+ (NSString *)resourceName</Declaration>
-			
-			<ReturnValue><Abstract type="html">uri resource name</Abstract></ReturnValue>
-			<Anchor>//api/name/resourceName</Anchor>
             <NodeRef refid="6"/>
 		</Token>
 		

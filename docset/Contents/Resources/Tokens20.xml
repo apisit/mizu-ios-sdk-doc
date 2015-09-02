@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/MZOrderItem.html">
+	<File path="Classes/MZTransaction.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/MZOrderItem</TokenIdentifier>
-			<Abstract type="html">MZOrderItem contains order item detail</Abstract>
-			<DeclaredIn>MZOrder.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/MZTransaction</TokenIdentifier>
+			<Abstract type="html">Transaction for Check-In</Abstract>
+			<DeclaredIn>MZTransaction.h</DeclaredIn>
             
 			
-			<NodeRef refid="13"/>
+			<NodeRef refid="20"/>
 		</Token>
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/MZOrderItem/initWithJson:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/MZTransaction/initWithJson:</TokenIdentifier>
 			<Abstract type="html">Initial object with json</Abstract>
-			<DeclaredIn>MZOrder.m</DeclaredIn>
+			<DeclaredIn>MZTransaction.m</DeclaredIn>
 			
 			<Declaration>- (id)initWithJson:(NSDictionary *)json</Declaration>
 			<Parameters>
@@ -26,19 +26,19 @@
 			</Parameters>
 			<ReturnValue><Abstract type="html">Object</Abstract></ReturnValue>
 			<Anchor>//api/name/initWithJson:</Anchor>
-            <NodeRef refid="13"/>
+            <NodeRef refid="20"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/clm/MZOrderItem/resourceName</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/clm/MZTransaction/resourceName</TokenIdentifier>
 			<Abstract type="html">Resource name for this object</Abstract>
-			<DeclaredIn>MZOrder.m</DeclaredIn>
+			<DeclaredIn>MZTransaction.m</DeclaredIn>
 			
 			<Declaration>+ (NSString *)resourceName</Declaration>
 			
 			<ReturnValue><Abstract type="html">uri resource name</Abstract></ReturnValue>
 			<Anchor>//api/name/resourceName</Anchor>
-            <NodeRef refid="13"/>
+            <NodeRef refid="20"/>
 		</Token>
 		
         

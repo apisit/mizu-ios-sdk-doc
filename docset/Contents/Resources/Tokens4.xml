@@ -106,6 +106,65 @@
 		</Token>
 		
 		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MZBusiness/setMenus:</TokenIdentifier>
+			<Abstract type="html">This menus is NSArray of MZMenu. will be assigned when call menusWithBlock.</Abstract>
+			<DeclaredIn>MZBusiness.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSArray *menus</Declaration>
+			
+			
+			<Anchor>//api/name/menus</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MZBusiness/menus</TokenIdentifier>
+			<Abstract type="html">This menus is NSArray of MZMenu. will be assigned when call menusWithBlock.</Abstract>
+			<DeclaredIn>MZBusiness.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSArray *menus</Declaration>
+			
+			
+			<Anchor>//api/name/menus</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MZBusiness/menus</TokenIdentifier>
+			<Abstract type="html">This menus is NSArray of MZMenu. will be assigned when call menusWithBlock.</Abstract>
+			<DeclaredIn>MZBusiness.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) NSArray *menus</Declaration>
+			
+			
+			<Anchor>//api/name/menus</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/MZBusiness/businessesNearby:search:block:</TokenIdentifier>
+			<Abstract type="html">Get businesses near by user&apos;s location</Abstract>
+			<DeclaredIn>MZBusiness.h</DeclaredIn>
+			
+			<Declaration>+ (void)businessesNearby:(CLLocationCoordinate2D)coordinate search:(NSString *)searchQuery block:(ListResult)block</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>coordinate</Name>
+					<Abstract type="html">user&apos;s location</Abstract>
+				</Parameter><Parameter>
+					<Name>searchQuery</Name>
+					<Abstract type="html">search query</Abstract>
+				</Parameter><Parameter>
+					<Name>block</Name>
+					<Abstract type="html">return list of object otherwise NSError</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/businessesNearby:search:block:</Anchor>
+            <NodeRef refid="4"/>
+		</Token>
+		
+		<Token>
 			<TokenIdentifier>//apple_ref/occ/instm/MZBusiness/initWithJson:</TokenIdentifier>
 			<Abstract type="html">Initial object with json</Abstract>
 			<DeclaredIn>MZBusiness.m</DeclaredIn>

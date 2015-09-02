@@ -8,7 +8,7 @@
 			<DeclaredIn>MZUser.h</DeclaredIn>
             
 			
-			<NodeRef refid="17"/>
+			<NodeRef refid="21"/>
 		</Token>
 		
 		
@@ -21,7 +21,7 @@
 			
 			
 			<Anchor>//api/name/sessionToken</Anchor>
-            <NodeRef refid="17"/>
+            <NodeRef refid="21"/>
 		</Token>
 		
 		<Token>
@@ -33,7 +33,7 @@
 			
 			
 			<Anchor>//api/name/sessionToken</Anchor>
-            <NodeRef refid="17"/>
+            <NodeRef refid="21"/>
 		</Token>
 		
 		<Token>
@@ -45,7 +45,7 @@
 			
 			
 			<Anchor>//api/name/sessionToken</Anchor>
-            <NodeRef refid="17"/>
+            <NodeRef refid="21"/>
 		</Token>
 		
 		<Token>
@@ -57,7 +57,7 @@
 			
 			
 			<Anchor>//api/name/userId</Anchor>
-            <NodeRef refid="17"/>
+            <NodeRef refid="21"/>
 		</Token>
 		
 		<Token>
@@ -69,7 +69,7 @@
 			
 			
 			<Anchor>//api/name/userId</Anchor>
-            <NodeRef refid="17"/>
+            <NodeRef refid="21"/>
 		</Token>
 		
 		<Token>
@@ -81,7 +81,7 @@
 			
 			
 			<Anchor>//api/name/userId</Anchor>
-            <NodeRef refid="17"/>
+            <NodeRef refid="21"/>
 		</Token>
 		
 		<Token>
@@ -93,7 +93,7 @@
 			
 			
 			<Anchor>//api/name/firstname</Anchor>
-            <NodeRef refid="17"/>
+            <NodeRef refid="21"/>
 		</Token>
 		
 		<Token>
@@ -105,7 +105,7 @@
 			
 			
 			<Anchor>//api/name/firstname</Anchor>
-            <NodeRef refid="17"/>
+            <NodeRef refid="21"/>
 		</Token>
 		
 		<Token>
@@ -117,7 +117,7 @@
 			
 			
 			<Anchor>//api/name/firstname</Anchor>
-            <NodeRef refid="17"/>
+            <NodeRef refid="21"/>
 		</Token>
 		
 		<Token>
@@ -129,7 +129,7 @@
 			
 			
 			<Anchor>//api/name/lastname</Anchor>
-            <NodeRef refid="17"/>
+            <NodeRef refid="21"/>
 		</Token>
 		
 		<Token>
@@ -141,7 +141,7 @@
 			
 			
 			<Anchor>//api/name/lastname</Anchor>
-            <NodeRef refid="17"/>
+            <NodeRef refid="21"/>
 		</Token>
 		
 		<Token>
@@ -153,7 +153,7 @@
 			
 			
 			<Anchor>//api/name/lastname</Anchor>
-            <NodeRef refid="17"/>
+            <NodeRef refid="21"/>
 		</Token>
 		
 		<Token>
@@ -165,7 +165,7 @@
 			
 			
 			<Anchor>//api/name/email</Anchor>
-            <NodeRef refid="17"/>
+            <NodeRef refid="21"/>
 		</Token>
 		
 		<Token>
@@ -177,7 +177,7 @@
 			
 			
 			<Anchor>//api/name/email</Anchor>
-            <NodeRef refid="17"/>
+            <NodeRef refid="21"/>
 		</Token>
 		
 		<Token>
@@ -189,7 +189,7 @@
 			
 			
 			<Anchor>//api/name/email</Anchor>
-            <NodeRef refid="17"/>
+            <NodeRef refid="21"/>
 		</Token>
 		
 		<Token>
@@ -201,7 +201,7 @@
 			
 			
 			<Anchor>//api/name/phoneNumber</Anchor>
-            <NodeRef refid="17"/>
+            <NodeRef refid="21"/>
 		</Token>
 		
 		<Token>
@@ -213,7 +213,7 @@
 			
 			
 			<Anchor>//api/name/phoneNumber</Anchor>
-            <NodeRef refid="17"/>
+            <NodeRef refid="21"/>
 		</Token>
 		
 		<Token>
@@ -225,7 +225,7 @@
 			
 			
 			<Anchor>//api/name/phoneNumber</Anchor>
-            <NodeRef refid="17"/>
+            <NodeRef refid="21"/>
 		</Token>
 		
 		<Token>
@@ -237,7 +237,7 @@
 			
 			
 			<Anchor>//api/name/phoneVerified</Anchor>
-            <NodeRef refid="17"/>
+            <NodeRef refid="21"/>
 		</Token>
 		
 		<Token>
@@ -249,7 +249,7 @@
 			
 			
 			<Anchor>//api/name/phoneVerified</Anchor>
-            <NodeRef refid="17"/>
+            <NodeRef refid="21"/>
 		</Token>
 		
 		<Token>
@@ -261,7 +261,7 @@
 			
 			
 			<Anchor>//api/name/phoneVerified</Anchor>
-            <NodeRef refid="17"/>
+            <NodeRef refid="21"/>
 		</Token>
 		
 		<Token>
@@ -273,7 +273,7 @@
 			
 			
 			<Anchor>//api/name/fullname</Anchor>
-            <NodeRef refid="17"/>
+            <NodeRef refid="21"/>
 		</Token>
 		
 		<Token>
@@ -285,7 +285,7 @@
 			
 			
 			<Anchor>//api/name/fullname</Anchor>
-            <NodeRef refid="17"/>
+            <NodeRef refid="21"/>
 		</Token>
 		
 		<Token>
@@ -297,7 +297,7 @@
 			
 			
 			<Anchor>//api/name/fullname</Anchor>
-            <NodeRef refid="17"/>
+            <NodeRef refid="21"/>
 		</Token>
 		
 		<Token>
@@ -309,7 +309,7 @@
 			
 			
 			<Anchor>//api/name/socialAccount</Anchor>
-            <NodeRef refid="17"/>
+            <NodeRef refid="21"/>
 		</Token>
 		
 		<Token>
@@ -321,7 +321,7 @@
 			
 			
 			<Anchor>//api/name/socialAccount</Anchor>
-            <NodeRef refid="17"/>
+            <NodeRef refid="21"/>
 		</Token>
 		
 		<Token>
@@ -333,7 +333,7 @@
 			
 			
 			<Anchor>//api/name/socialAccount</Anchor>
-            <NodeRef refid="17"/>
+            <NodeRef refid="21"/>
 		</Token>
 		
 		<Token>
@@ -345,7 +345,7 @@
 			
 			
 			<Anchor>//api/name/profilePicture</Anchor>
-            <NodeRef refid="17"/>
+            <NodeRef refid="21"/>
 		</Token>
 		
 		<Token>
@@ -357,7 +357,7 @@
 			
 			
 			<Anchor>//api/name/profilePicture</Anchor>
-            <NodeRef refid="17"/>
+            <NodeRef refid="21"/>
 		</Token>
 		
 		<Token>
@@ -369,7 +369,7 @@
 			
 			
 			<Anchor>//api/name/profilePicture</Anchor>
-            <NodeRef refid="17"/>
+            <NodeRef refid="21"/>
 		</Token>
 		
 		<Token>
@@ -381,7 +381,7 @@
 			
 			
 			<Anchor>//api/name/tastePreferences</Anchor>
-            <NodeRef refid="17"/>
+            <NodeRef refid="21"/>
 		</Token>
 		
 		<Token>
@@ -393,7 +393,7 @@
 			
 			
 			<Anchor>//api/name/tastePreferences</Anchor>
-            <NodeRef refid="17"/>
+            <NodeRef refid="21"/>
 		</Token>
 		
 		<Token>
@@ -405,7 +405,7 @@
 			
 			
 			<Anchor>//api/name/tastePreferences</Anchor>
-            <NodeRef refid="17"/>
+            <NodeRef refid="21"/>
 		</Token>
 		
 		<Token>
@@ -417,7 +417,7 @@
 			
 			<ReturnValue><Abstract type="html">current logged in user.</Abstract></ReturnValue>
 			<Anchor>//api/name/currentUser</Anchor>
-            <NodeRef refid="17"/>
+            <NodeRef refid="21"/>
 		</Token>
 		
 		<Token>
@@ -434,7 +434,7 @@
 			</Parameters>
 			
 			<Anchor>//api/name/refreshWithBlock:</Anchor>
-            <NodeRef refid="17"/>
+            <NodeRef refid="21"/>
 		</Token>
 		
 		<Token>
@@ -457,7 +457,7 @@
 			</Parameters>
 			
 			<Anchor>//api/name/updateFirstName:lastName:block:</Anchor>
-            <NodeRef refid="17"/>
+            <NodeRef refid="21"/>
 		</Token>
 		
 		<Token>
@@ -492,7 +492,7 @@
 			</Parameters>
 			
 			<Anchor>//api/name/registerWithFirstname:lastname:email:password:phoneNumber:socialAccount:block:</Anchor>
-            <NodeRef refid="17"/>
+            <NodeRef refid="21"/>
 		</Token>
 		
 		<Token>
@@ -518,7 +518,7 @@
 			</Parameters>
 			
 			<Anchor>//api/name/loginWithEmail:password:socialAccount:block:</Anchor>
-            <NodeRef refid="17"/>
+            <NodeRef refid="21"/>
 		</Token>
 		
 		<Token>
@@ -538,7 +538,7 @@
 			</Parameters>
 			
 			<Anchor>//api/name/forgotPasword:block:</Anchor>
-            <NodeRef refid="17"/>
+            <NodeRef refid="21"/>
 		</Token>
 		
 		<Token>
@@ -550,7 +550,7 @@
 			
 			
 			<Anchor>//api/name/logout</Anchor>
-            <NodeRef refid="17"/>
+            <NodeRef refid="21"/>
 		</Token>
 		
 		<Token>
@@ -570,7 +570,7 @@
 			</Parameters>
 			
 			<Anchor>//api/name/verifyPhoneNumberWithCode:block:</Anchor>
-            <NodeRef refid="17"/>
+            <NodeRef refid="21"/>
 		</Token>
 		
 		<Token>
@@ -599,7 +599,7 @@
 			</Parameters>
 			
 			<Anchor>//api/name/addDefaultCreditCard:expMonth:expYear:cvc:block:</Anchor>
-            <NodeRef refid="17"/>
+            <NodeRef refid="21"/>
 		</Token>
 		
 		<Token>
@@ -616,7 +616,7 @@
 			</Parameters>
 			
 			<Anchor>//api/name/getDefaultCard:</Anchor>
-            <NodeRef refid="17"/>
+            <NodeRef refid="21"/>
 		</Token>
 		
 		<Token>
@@ -639,7 +639,7 @@
 			</Parameters>
 			
 			<Anchor>//api/name/checkInAt:table:block:</Anchor>
-            <NodeRef refid="17"/>
+            <NodeRef refid="21"/>
 		</Token>
 		
 		<Token>
@@ -656,7 +656,7 @@
 			</Parameters>
 			
 			<Anchor>//api/name/recentCheckIn:</Anchor>
-            <NodeRef refid="17"/>
+            <NodeRef refid="21"/>
 		</Token>
 		
 		<Token>
@@ -679,7 +679,7 @@
 			</Parameters>
 			
 			<Anchor>//api/name/placeOrderAt:withItems:block:</Anchor>
-            <NodeRef refid="17"/>
+            <NodeRef refid="21"/>
 		</Token>
 		
 		<Token>
@@ -696,7 +696,7 @@
 			</Parameters>
 			
 			<Anchor>//api/name/tastePreferences:</Anchor>
-            <NodeRef refid="17"/>
+            <NodeRef refid="21"/>
 		</Token>
 		
 		<Token>
@@ -716,7 +716,7 @@
 			</Parameters>
 			
 			<Anchor>//api/name/saveTastePreferences:block:</Anchor>
-            <NodeRef refid="17"/>
+            <NodeRef refid="21"/>
 		</Token>
 		
 		<Token>
@@ -745,7 +745,7 @@
 			</Parameters>
 			
 			<Anchor>//api/name/comment:imageData:business:item:block:</Anchor>
-            <NodeRef refid="17"/>
+            <NodeRef refid="21"/>
 		</Token>
 		
 		<Token>
@@ -771,7 +771,7 @@
 			</Parameters>
 			
 			<Anchor>//api/name/like:business:item:block:</Anchor>
-            <NodeRef refid="17"/>
+            <NodeRef refid="21"/>
 		</Token>
 		
 		<Token>
@@ -797,7 +797,7 @@
 			</Parameters>
 			
 			<Anchor>//api/name/deleteCommentBusiness:item:comment:block:</Anchor>
-            <NodeRef refid="17"/>
+            <NodeRef refid="21"/>
 		</Token>
 		
 		<Token>
@@ -817,15 +817,87 @@
 			</Parameters>
 			
 			<Anchor>//api/name/saveProfilePicture:block:</Anchor>
-            <NodeRef refid="17"/>
+            <NodeRef refid="21"/>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/MZUser/recentActivitiesLastId:block:</TokenIdentifier>
-			<Abstract type="html">Get 50 recent activities including likes and comments.</Abstract>
+			<TokenIdentifier>//apple_ref/occ/instm/MZUser/setDefaultTipPercent:</TokenIdentifier>
+			<Abstract type="html">Default tip in percentage.</Abstract>
 			<DeclaredIn>MZUser.h</DeclaredIn>
 			
-			<Declaration>- (void)recentActivitiesLastId:(NSString *)lastId block:(ListResult)block</Declaration>
+			<Declaration>@property (nonatomic, assign) double defaultTipPercent</Declaration>
+			
+			
+			<Anchor>//api/name/defaultTipPercent</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MZUser/defaultTipPercent</TokenIdentifier>
+			<Abstract type="html">Default tip in percentage.</Abstract>
+			<DeclaredIn>MZUser.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) double defaultTipPercent</Declaration>
+			
+			
+			<Anchor>//api/name/defaultTipPercent</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MZUser/defaultTipPercent</TokenIdentifier>
+			<Abstract type="html">Default tip in percentage.</Abstract>
+			<DeclaredIn>MZUser.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, assign) double defaultTipPercent</Declaration>
+			
+			
+			<Anchor>//api/name/defaultTipPercent</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MZUser/setMizuPayEnabled:</TokenIdentifier>
+			<Abstract type="html">Is Mizu pay enabled for this user.</Abstract>
+			<DeclaredIn>MZUser.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL mizuPayEnabled</Declaration>
+			
+			
+			<Anchor>//api/name/mizuPayEnabled</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MZUser/mizuPayEnabled</TokenIdentifier>
+			<Abstract type="html">Is Mizu pay enabled for this user.</Abstract>
+			<DeclaredIn>MZUser.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL mizuPayEnabled</Declaration>
+			
+			
+			<Anchor>//api/name/mizuPayEnabled</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instp/MZUser/mizuPayEnabled</TokenIdentifier>
+			<Abstract type="html">Is Mizu pay enabled for this user.</Abstract>
+			<DeclaredIn>MZUser.h</DeclaredIn>
+			
+			<Declaration>@property (nonatomic, readonly) BOOL mizuPayEnabled</Declaration>
+			
+			
+			<Anchor>//api/name/mizuPayEnabled</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MZUser/recentLikeActivitiesLastId:block:</TokenIdentifier>
+			<Abstract type="html">Get 50 recent like activities..</Abstract>
+			<DeclaredIn>MZUser.h</DeclaredIn>
+			
+			<Declaration>- (void)recentLikeActivitiesLastId:(NSString *)lastId block:(ListResult)block</Declaration>
 			<Parameters>
 				<Parameter>
 					<Name>lastId</Name>
@@ -836,8 +908,51 @@
 				</Parameter>
 			</Parameters>
 			
-			<Anchor>//api/name/recentActivitiesLastId:block:</Anchor>
-            <NodeRef refid="17"/>
+			<Anchor>//api/name/recentLikeActivitiesLastId:block:</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MZUser/saveDeviceToken:deviceInfo:block:</TokenIdentifier>
+			<Abstract type="html">Saving user device token</Abstract>
+			<DeclaredIn>MZUser.h</DeclaredIn>
+			
+			<Declaration>- (void)saveDeviceToken:(NSString *)deviceToken deviceInfo:(NSString *)deviceInfo block:(ValidResult)block</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>deviceToken</Name>
+					<Abstract type="html">Device token.</Abstract>
+				</Parameter><Parameter>
+					<Name>deviceInfo</Name>
+					<Abstract type="html">Device info.</Abstract>
+				</Parameter><Parameter>
+					<Name>block</Name>
+					<Abstract type="html">Valid result</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/saveDeviceToken:deviceInfo:block:</Anchor>
+            <NodeRef refid="21"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/instm/MZUser/checkInToBusiness:block:</TokenIdentifier>
+			<Abstract type="html">Check in to Business</Abstract>
+			<DeclaredIn>MZUser.h</DeclaredIn>
+			
+			<Declaration>- (void)checkInToBusiness:(MZBusiness *)business block:(SingleRowResult)block</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>business</Name>
+					<Abstract type="html">business to check-in</Abstract>
+				</Parameter><Parameter>
+					<Name>block</Name>
+					<Abstract type="html">return MZCheckIn otherwise NSError</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/checkInToBusiness:block:</Anchor>
+            <NodeRef refid="21"/>
 		</Token>
 		
 		<Token>
@@ -849,7 +964,7 @@
 			
 			<ReturnValue><Abstract type="html">uri resource name</Abstract></ReturnValue>
 			<Anchor>//api/name/resourceName</Anchor>
-            <NodeRef refid="17"/>
+            <NodeRef refid="21"/>
 		</Token>
 		
 		<Token>
@@ -866,7 +981,7 @@
 			</Parameters>
 			<ReturnValue><Abstract type="html">Object</Abstract></ReturnValue>
 			<Anchor>//api/name/initWithJson:</Anchor>
-            <NodeRef refid="17"/>
+            <NodeRef refid="21"/>
 		</Token>
 		
         

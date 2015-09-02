@@ -41,6 +41,8 @@
 	
 	<option value="//api/name/distanceFromCurrentLocation">&nbsp;&nbsp;&nbsp;&nbsp;distanceFromCurrentLocation</option>
 	
+	<option value="//api/name/menus">&nbsp;&nbsp;&nbsp;&nbsp;menus</option>
+	
 	
 	
 	
@@ -49,6 +51,8 @@
 	<option value="//api/name/businessDetail:block:">&nbsp;&nbsp;&nbsp;&nbsp;+ businessDetail:block:</option>
 	
 	<option value="//api/name/businessesNearby:block:">&nbsp;&nbsp;&nbsp;&nbsp;+ businessesNearby:block:</option>
+	
+	<option value="//api/name/businessesNearby:search:block:">&nbsp;&nbsp;&nbsp;&nbsp;+ businessesNearby:search:block:</option>
 	
 	<option value="//api/name/resourceName">&nbsp;&nbsp;&nbsp;&nbsp;+ resourceName</option>
 	
@@ -87,6 +91,8 @@
 	
 	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/distanceFromCurrentLocation">distanceFromCurrentLocation</a></span></li>
 	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/menus">menus</a></span></li>
+	
 </ul></li>
 
 
@@ -96,6 +102,8 @@
 	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/businessDetail:block:">businessDetail:block:</a></span></li>
 	
 	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/businessesNearby:block:">businessesNearby:block:</a></span></li>
+	
+	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/businessesNearby:search:block:">businessesNearby:search:block:</a></span></li>
 	
 	<li><span class="nodisclosure"></span><span class="sectionName"><a href="#//api/name/resourceName">resourceName</a></span></li>
 	
@@ -196,6 +204,26 @@
 						<ul class="task-list">
 							<li>
 	<span class="tooltip">
+		<code><a href="#//api/name/menus">&nbsp;&nbsp;menus</a></code>
+	</span>
+	<span class="task-item-suffix">property</span>
+	
+</li><li>
+	<span class="tooltip">
+		<code><a href="#//api/name/businessesNearby:search:block:">+&nbsp;businessesNearby:search:block:</a></code>
+	</span>
+	
+	
+</li>
+						</ul>
+						
+						
+						
+						<h3 class="subsubtitle task-title">Other Methods</h3>
+
+						<ul class="task-list">
+							<li>
+	<span class="tooltip">
 		<code><a href="#//api/name/initWithJson:">&ndash;&nbsp;initWithJson:</a></code>
 	</span>
 	
@@ -232,6 +260,42 @@
     
 
 	<div class="method-subsection method-declaration"><code>@property (nonatomic, assign) double distanceFromCurrentLocation</code></div>
+
+    
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">MZBusiness.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/menus" title="menus"></a>
+	<h3 class="subsubtitle method-title">menus</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>This menus is NSArray of <a href="../Classes/MZMenu.html">MZMenu</a>. will be assigned when call menusWithBlock.</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>@property (nonatomic, readonly) NSArray *menus</code></div>
 
     
 	
@@ -336,6 +400,62 @@
 		<dl class="argument-def parameter-def">
 			<dt><em>coordinate</em></dt>
 			<dd><p>user&rsquo;s location</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>block</em></dt>
+			<dd><p>return list of object otherwise NSError</p></dd>
+		</dl>
+		
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="method-subsection declared-in-section">
+		<h4 class="method-subtitle">Declared In</h4>
+		<code class="declared-in-ref">MZBusiness.h</code><br />
+	</div>				
+	
+	
+</div>
+						
+						<div class="section-method">
+	<a name="//api/name/businessesNearby:search:block:" title="businessesNearby:search:block:"></a>
+	<h3 class="subsubtitle method-title">businessesNearby:search:block:</h3>
+	
+	
+	
+	<div class="method-subsection brief-description">
+		<p>Get businesses near by user&rsquo;s location</p>
+	</div>		
+	
+    
+
+	<div class="method-subsection method-declaration"><code>+ (void)businessesNearby:(CLLocationCoordinate2D)<em>coordinate</em> search:(NSString *)<em>searchQuery</em> block:(ListResult)<em>block</em></code></div>
+
+    
+	
+	<div class="method-subsection arguments-section parameters">
+		<h4 class="method-subtitle parameter-title">Parameters</h4>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>coordinate</em></dt>
+			<dd><p>user&rsquo;s location</p></dd>
+		</dl>
+		
+		<dl class="argument-def parameter-def">
+			<dt><em>searchQuery</em></dt>
+			<dd><p>search query</p></dd>
 		</dl>
 		
 		<dl class="argument-def parameter-def">
@@ -526,7 +646,7 @@
 				<div id="footer">
 					<hr />
 					<div class="footer-copyright">
-						<p><span class="copyright">&copy; 2015 MIZU. All rights reserved. (Last updated: 2015-04-29)</span><br />
+						<p><span class="copyright">&copy; 2015 MIZU. All rights reserved. (Last updated: 2015-09-02)</span><br />
 						
 						<span class="generator">Generated by <a href="http://appledoc.gentlebytes.com">appledoc 2.2 (build 963)</a>.</span></p>
 						

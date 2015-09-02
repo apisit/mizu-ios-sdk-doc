@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/MZCard.html">
+	<File path="Classes/MZBusinessHour.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/MZCard</TokenIdentifier>
-			<Abstract type="html">Card detail with only last 4 digits</Abstract>
-			<DeclaredIn>MZCard.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/MZBusinessHour</TokenIdentifier>
+			<Abstract type="html">Business hour</Abstract>
+			<DeclaredIn>MZBusinessHour.h</DeclaredIn>
             
 			
 			<NodeRef refid="5"/>
@@ -13,9 +13,9 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/MZCard/initWithJson:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/MZBusinessHour/initWithJson:</TokenIdentifier>
 			<Abstract type="html">Initial object with json</Abstract>
-			<DeclaredIn>MZCard.m</DeclaredIn>
+			<DeclaredIn>MZBusinessHour.m</DeclaredIn>
 			
 			<Declaration>- (id)initWithJson:(NSDictionary *)json</Declaration>
 			<Parameters>
@@ -26,18 +26,6 @@
 			</Parameters>
 			<ReturnValue><Abstract type="html">Object</Abstract></ReturnValue>
 			<Anchor>//api/name/initWithJson:</Anchor>
-            <NodeRef refid="5"/>
-		</Token>
-		
-		<Token>
-			<TokenIdentifier>//apple_ref/occ/clm/MZCard/resourceName</TokenIdentifier>
-			<Abstract type="html">Resource name for this object</Abstract>
-			<DeclaredIn>MZCard.m</DeclaredIn>
-			
-			<Declaration>+ (NSString *)resourceName</Declaration>
-			
-			<ReturnValue><Abstract type="html">uri resource name</Abstract></ReturnValue>
-			<Anchor>//api/name/resourceName</Anchor>
             <NodeRef refid="5"/>
 		</Token>
 		

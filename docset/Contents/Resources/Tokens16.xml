@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/MZSocialAccount.html">
+	<File path="Classes/MZOrderItem.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/MZSocialAccount</TokenIdentifier>
-			<Abstract type="html">Social account. (only facebook is supported)</Abstract>
-			<DeclaredIn>MZSocialAccount.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/MZOrderItem</TokenIdentifier>
+			<Abstract type="html">MZOrderItem contains order item detail</Abstract>
+			<DeclaredIn>MZOrder.h</DeclaredIn>
             
 			
 			<NodeRef refid="16"/>
@@ -13,9 +13,9 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/MZSocialAccount/initWithJson:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/MZOrderItem/initWithJson:</TokenIdentifier>
 			<Abstract type="html">Initial object with json</Abstract>
-			<DeclaredIn>MZSocialAccount.m</DeclaredIn>
+			<DeclaredIn>MZOrder.m</DeclaredIn>
 			
 			<Declaration>- (id)initWithJson:(NSDictionary *)json</Declaration>
 			<Parameters>
@@ -30,14 +30,14 @@
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/MZSocialAccount/toJson</TokenIdentifier>
-			<Abstract type="html">To NSDictionry</Abstract>
-			<DeclaredIn>MZSocialAccount.m</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/clm/MZOrderItem/resourceName</TokenIdentifier>
+			<Abstract type="html">Resource name for this object</Abstract>
+			<DeclaredIn>MZOrder.m</DeclaredIn>
 			
-			<Declaration>- (NSDictionary *)toJson</Declaration>
+			<Declaration>+ (NSString *)resourceName</Declaration>
 			
-			<ReturnValue><Abstract type="html">NSDictionary</Abstract></ReturnValue>
-			<Anchor>//api/name/toJson</Anchor>
+			<ReturnValue><Abstract type="html">uri resource name</Abstract></ReturnValue>
+			<Anchor>//api/name/resourceName</Anchor>
             <NodeRef refid="16"/>
 		</Token>
 		

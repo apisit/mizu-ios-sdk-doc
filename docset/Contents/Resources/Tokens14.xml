@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/MZQuestion.html">
+	<File path="Classes/MZMeta.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/MZQuestion</TokenIdentifier>
-			<Abstract type="html">MZQuestion taste preference question</Abstract>
-			<DeclaredIn>MZQuestion.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/MZMeta</TokenIdentifier>
+			<Abstract type="html">Meta data for MZBusiness contains country name, currency symbol and etc.</Abstract>
+			<DeclaredIn>MZBusiness.h</DeclaredIn>
             
 			
 			<NodeRef refid="14"/>
@@ -13,9 +13,9 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/instm/MZQuestion/initWithJson:</TokenIdentifier>
+			<TokenIdentifier>//apple_ref/occ/instm/MZMeta/initWithJson:</TokenIdentifier>
 			<Abstract type="html">Initial object with json</Abstract>
-			<DeclaredIn>MZQuestion.m</DeclaredIn>
+			<DeclaredIn>MZBusiness.m</DeclaredIn>
 			
 			<Declaration>- (id)initWithJson:(NSDictionary *)json</Declaration>
 			<Parameters>

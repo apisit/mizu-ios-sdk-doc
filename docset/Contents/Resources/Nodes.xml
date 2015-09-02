@@ -29,6 +29,10 @@
 						<NodeRef refid="16"/>
 						<NodeRef refid="17"/>
 						<NodeRef refid="18"/>
+						<NodeRef refid="19"/>
+						<NodeRef refid="20"/>
+						<NodeRef refid="21"/>
+						<NodeRef refid="22"/>
 						
 					</Subnodes>
 				</Node>
@@ -174,6 +178,60 @@
             
         </Node>
 		<Node id="5" type="file" documentType="reference">
+            <Name>MZBusinessHour</Name>
+            <Path>Classes/MZBusinessHour.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/MZBusinessHour.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/MZBusinessHour.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/MZBusinessHour.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="6" type="file" documentType="reference">
+            <Name>MZBusinessSocial</Name>
+            <Path>Classes/MZBusinessSocial.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/MZBusinessSocial.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/MZBusinessSocial.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                
+                <Node type="section">
+                    <Path>Classes/MZBusinessSocial.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="7" type="file" documentType="reference">
             <Name>MZCard</Name>
             <Path>Classes/MZCard.html</Path>
             
@@ -206,7 +264,7 @@
             </Subnodes>
             
         </Node>
-		<Node id="6" type="file" documentType="reference">
+		<Node id="8" type="file" documentType="reference">
             <Name>MZCheckIn</Name>
             <Path>Classes/MZCheckIn.html</Path>
             
@@ -239,12 +297,45 @@
             </Subnodes>
             
         </Node>
-		<Node id="7" type="file" documentType="reference">
+		<Node id="9" type="file" documentType="reference">
+            <Name>MZFeedback</Name>
+            <Path>Classes/MZFeedback.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/MZFeedback.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/MZFeedback.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/MZFeedback.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/MZFeedback.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="10" type="file" documentType="reference">
             <Name>MZHelper</Name>
             <Path>Classes/MZHelper.html</Path>
             
         </Node>
-		<Node id="8" type="file" documentType="reference">
+		<Node id="11" type="file" documentType="reference">
             <Name>MZMenu</Name>
             <Path>Classes/MZMenu.html</Path>
             
@@ -283,7 +374,7 @@
             </Subnodes>
             
         </Node>
-		<Node id="9" type="file" documentType="reference">
+		<Node id="12" type="file" documentType="reference">
             <Name>MZMenuItem</Name>
             <Path>Classes/MZMenuItem.html</Path>
             
@@ -322,7 +413,7 @@
             </Subnodes>
             
         </Node>
-		<Node id="10" type="file" documentType="reference">
+		<Node id="13" type="file" documentType="reference">
             <Name>MZMenuSection</Name>
             <Path>Classes/MZMenuSection.html</Path>
             
@@ -361,7 +452,7 @@
             </Subnodes>
             
         </Node>
-		<Node id="11" type="file" documentType="reference">
+		<Node id="14" type="file" documentType="reference">
             <Name>MZMeta</Name>
             <Path>Classes/MZMeta.html</Path>
             
@@ -388,12 +479,12 @@
             </Subnodes>
             
         </Node>
-		<Node id="12" type="file" documentType="reference">
+		<Node id="15" type="file" documentType="reference">
             <Name>MZOrder</Name>
             <Path>Classes/MZOrder.html</Path>
             
         </Node>
-		<Node id="13" type="file" documentType="reference">
+		<Node id="16" type="file" documentType="reference">
             <Name>MZOrderItem</Name>
             <Path>Classes/MZOrderItem.html</Path>
             
@@ -426,7 +517,7 @@
             </Subnodes>
             
         </Node>
-		<Node id="14" type="file" documentType="reference">
+		<Node id="17" type="file" documentType="reference">
             <Name>MZQuestion</Name>
             <Path>Classes/MZQuestion.html</Path>
             
@@ -453,7 +544,7 @@
             </Subnodes>
             
         </Node>
-		<Node id="15" type="file" documentType="reference">
+		<Node id="18" type="file" documentType="reference">
             <Name>MZSetting</Name>
             <Path>Classes/MZSetting.html</Path>
             
@@ -480,7 +571,7 @@
             </Subnodes>
             
         </Node>
-		<Node id="16" type="file" documentType="reference">
+		<Node id="19" type="file" documentType="reference">
             <Name>MZSocialAccount</Name>
             <Path>Classes/MZSocialAccount.html</Path>
             
@@ -507,7 +598,40 @@
             </Subnodes>
             
         </Node>
-		<Node id="17" type="file" documentType="reference">
+		<Node id="20" type="file" documentType="reference">
+            <Name>MZTransaction</Name>
+            <Path>Classes/MZTransaction.html</Path>
+            
+                <Subnodes>
+                <Node type="section">
+                    <Path>Classes/MZTransaction.html</Path>
+                    <Name>Overview</Name>
+                    <Anchor>overview</Anchor>
+                </Node>
+                <Node type="section">
+                    <Path>Classes/MZTransaction.html</Path>
+                    <Name>Tasks</Name>
+                    <Anchor>tasks</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/MZTransaction.html</Path>
+                    <Name>Class Methods</Name>
+                    <Anchor>class_methods</Anchor>
+                </Node>
+                
+                
+                <Node type="section">
+                    <Path>Classes/MZTransaction.html</Path>
+                    <Name>Instance Methods</Name>
+                    <Anchor>instance_methods</Anchor>
+                </Node>
+                
+            </Subnodes>
+            
+        </Node>
+		<Node id="21" type="file" documentType="reference">
             <Name>MZUser</Name>
             <Path>Classes/MZUser.html</Path>
             
@@ -546,7 +670,7 @@
             </Subnodes>
             
         </Node>
-		<Node id="18" type="file" documentType="reference">
+		<Node id="22" type="file" documentType="reference">
             <Name>Mizu</Name>
             <Path>Classes/Mizu.html</Path>
             

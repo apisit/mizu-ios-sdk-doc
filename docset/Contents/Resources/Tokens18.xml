@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Tokens version="1.0">
-	<File path="Classes/Mizu.html">
+	<File path="Classes/MZSetting.html">
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/cl/Mizu</TokenIdentifier>
-			<Abstract type="html">Mizu</Abstract>
-			<DeclaredIn>Mizu.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/cl/MZSetting</TokenIdentifier>
+			<Abstract type="html">Settings</Abstract>
+			<DeclaredIn>MZSetting.h</DeclaredIn>
             
 			
 			<NodeRef refid="18"/>
@@ -13,22 +13,19 @@
 		
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/clm/Mizu/setApplicationId:apiKey:</TokenIdentifier>
-			<Abstract type="html">Set application Id and API key</Abstract>
-			<DeclaredIn>Mizu.h</DeclaredIn>
+			<TokenIdentifier>//apple_ref/occ/clm/MZSetting/tastePreferenceQuestions:</TokenIdentifier>
+			<Abstract type="html">Get taste preference questions</Abstract>
+			<DeclaredIn>MZSetting.h</DeclaredIn>
 			
-			<Declaration>+ (void)setApplicationId:(NSString *)applicationId apiKey:(NSString *)apiKey</Declaration>
+			<Declaration>+ (void)tastePreferenceQuestions:(ListResult)block</Declaration>
 			<Parameters>
 				<Parameter>
-					<Name>applicationId</Name>
-					<Abstract type="html">Application Identifier</Abstract>
-				</Parameter><Parameter>
-					<Name>apiKey</Name>
-					<Abstract type="html">API Key</Abstract>
+					<Name>block</Name>
+					<Abstract type="html">Array of MZQuestion</Abstract>
 				</Parameter>
 			</Parameters>
 			
-			<Anchor>//api/name/setApplicationId:apiKey:</Anchor>
+			<Anchor>//api/name/tastePreferenceQuestions:</Anchor>
             <NodeRef refid="18"/>
 		</Token>
 		
